@@ -1,0 +1,796 @@
+[
+	{
+		"name": "Mastodon",
+		"origin": "Atlanta, Georgia, Estados Unidos",
+		"members": [
+			{
+				"name": "Troy Sanders",
+				"instruments": [
+					"Voz",
+					"Bajo"
+				]
+			},
+			{
+				"name": "Brent Hinds",
+				"instruments": [
+					"Voz",
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Bill Kelliher",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Brann Dailor",
+				"instruments": [
+					"Voz",
+					"Batería"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 1,
+				"title": "Remission",
+				"year": 2002,
+				"genre": {
+					"name": "Sludge metal"
+				}
+			},
+			{
+				"id": 2,
+				"title": "Leviathan",
+				"year": 2004,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 3,
+				"title": "Blood Mountain",
+				"year": 2006,
+				"genre": {
+					"name": "Progressive metal"
+				}
+			},
+			{
+				"id": 4,
+				"title": "Crack the Skye",
+				"year": 2009,
+				"genre": {
+					"name": "Progressive metal"
+				}
+			},
+			{
+				"id": 5,
+				"title": "The Hunter",
+				"year": 2011,
+				"genre": {
+					"name": "Sludge metal"
+				}
+			},
+			{
+				"id": 6,
+				"title": "Once More 'Round the Sun",
+				"year": 2014,
+				"genre": {
+					"name": "Sludge metal"
+				}
+			}
+		]
+	},
+	{
+		"name": "Slipknot",
+		"origin": "Des Moines, Iowa, Estados Unidos",
+		"members": [
+			{
+				"name": "#0 Sid Wilson",
+				"instruments": [
+					"DJ"
+				]
+			},
+			{
+				"name": "#3 Chris Fehn",
+				"instruments": [
+					"Percusión"
+				]
+			},
+			{
+				"name": "#4 Jim Root",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "#5 Craig Jones",
+				"instruments": [
+					"Teclista"
+				]
+			},
+			{
+				"name": "#6 Shawn \"Clown\" Crahan",
+				"instruments": [
+					"Voz",
+					"Percusión"
+				]
+			},
+			{
+				"name": "#7 Mick Thomson",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "#8 Corey Taylor",
+				"instruments": [
+					"Voz"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 7,
+				"title": "Slipknot",
+				"year": 1999,
+				"genre": {
+					"name": "Nu metal"
+				}
+			},
+			{
+				"id": 8,
+				"title": "Iowa",
+				"year": 2001,
+				"genre": {
+					"name": "Nu metal"
+				}
+			},
+			{
+				"id": 9,
+				"title": "Vol. 3: (The Subliminal Verses)",
+				"year": 2004,
+				"genre": {
+					"name": "Nu metal"
+				}
+			},
+			{
+				"id": 10,
+				"title": "All Hope Is Gone",
+				"year": 2008,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 11,
+				"title": ".5: The Gray Chapter",
+				"year": 2014,
+				"genre": {
+					"name": "Groove metal"
+				}
+			}
+		]
+	},
+	{
+		"name": "Stone Sour",
+		"origin": "Des Moines, Iowa, Estados Unidos",
+		"members": [
+			{
+				"name": "Corey Taylor",
+				"instruments": [
+					"Voz"
+				]
+			},
+			{
+				"name": "Josh Rand",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Roy Mayorga",
+				"instruments": [
+					"Batería"
+				]
+			},
+			{
+				"name": "Johny Chow",
+				"instruments": [
+					"Bajo"
+				]
+			},
+			{
+				"name": "Christian Martucci",
+				"instruments": [
+					"Guitarra"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 12,
+				"title": "Stone Sour",
+				"year": 2002,
+				"genre": {
+					"name": "Alternative metal"
+				}
+			},
+			{
+				"id": 13,
+				"title": "Come What(ever) May",
+				"year": 2006,
+				"genre": {
+					"name": "Alternative metal"
+				}
+			},
+			{
+				"id": 14,
+				"title": "Audio Secrecy",
+				"year": 2010,
+				"genre": {
+					"name": "Alternative metal"
+				}
+			},
+			{
+				"id": 15,
+				"title": "House of Gold & Bones Part 1",
+				"year": 2012,
+				"genre": {
+					"name": "Alternative metal"
+				}
+			},
+			{
+				"id": 16,
+				"title": "House of Gold & Bones Part 2",
+				"year": 2013,
+				"genre": {
+					"name": "Alternative metal"
+				}
+			}
+		]
+	},
+	{
+		"name": "Lamb of God",
+		"origin": "Richmond, Virginia, Estados Unidos",
+		"members": [
+			{
+				"name": "Randy Blythe",
+				"instruments": [
+					"Voz"
+				]
+			},
+			{
+				"name": "Mark Morton",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Willie Adler",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "John Campbell",
+				"instruments": [
+					"Bajo"
+				]
+			},
+			{
+				"name": "Chris Adler",
+				"instruments": [
+					"Batería"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 17,
+				"title": "Burn the Priest",
+				"year": 1999,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 18,
+				"title": "New American Gospel",
+				"year": 2000,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 19,
+				"title": "As the Palaces Burn",
+				"year": 2003,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 20,
+				"title": "Ashes of the Wake",
+				"year": 2004,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 21,
+				"title": "Sacrament",
+				"year": 2006,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 22,
+				"title": "Wrath",
+				"year": 2009,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 23,
+				"title": "Resolution",
+				"year": 2012,
+				"genre": {
+					"name": "Groove metal"
+				}
+			}
+		]
+	},
+	{
+		"name": "Fear Factory",
+		"origin": "Los Angeles, California, Estados Unidos",
+		"members": [
+			{
+				"name": "Burton C. Bell",
+				"instruments": [
+					"Voz"
+				]
+			},
+			{
+				"name": "Dino Cazares",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Matt DeVries",
+				"instruments": [
+					"Bajo"
+				]
+			},
+			{
+				"name": "Mike Heller",
+				"instruments":[
+					"Batería"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 24,
+				"title": "Soul of a New Machine",
+				"year": 1992,
+				"genre": {
+					"name": "Thrash metal"
+				}
+			},
+			{
+				"id": 25,
+				"title": "Demanufacture",
+				"year": 1995,
+				"genre": {
+					"name": "Industrial metal"
+				}
+			},
+			{
+				"id": 26,
+				"title": "Obsolete",
+				"year": 1998,
+				"genre": {
+					"name": "Industrial metal"
+				}
+			},
+			{
+				"id": 27,
+				"title": "Digimortal",
+				"year": 2001,
+				"genre": {
+					"name": "Industrial metal"
+				}
+			},
+			{
+				"id": 28,
+				"title": "Archetype",
+				"year": 2004,
+				"genre": {
+					"name": "Industrial metal"
+				}
+			},
+			{
+				"id": 29,
+				"title": "Transgression",
+				"year": 2005,
+				"genre": {
+					"name": "Industrial metal"
+				}
+			},
+			{
+				"id": 30,
+				"title": "Mechanize",
+				"year": 2010,
+				"genre": {
+					"name": "Industrial metal"
+				}
+			},
+			{
+				"id": 31,
+				"title": "The Industrialist",
+				"year": 2012,
+				"genre": {
+					"name": "Industrial metal"
+				}
+			}
+		]
+	},
+	{
+		"name": "Gojira",
+		"origin": "Bayona, Francia",
+		"members": [
+			{
+				"name": "Joe Duplantier",
+				"instruments": [
+					"Voz",
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Mario Duplantier",
+				"instruments": [
+					"Batería"
+				]
+			},
+			{
+				"name": "Christian Andreu",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Jean-Michel Labadie",
+				"instruments":[
+					"Bajo"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 32,
+				"title": "Terra Incognita",
+				"year": 2001,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 33,
+				"title": "The Link",
+				"year": 2003,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 34,
+				"title": "From Mars to Sirius",
+				"year": 2005,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 35,
+				"title": "The Way of All Flesh",
+				"year": 2008,
+				"genre": {
+					"name": "Groove metal"
+				}
+			},
+			{
+				"id": 36,
+				"title": "L'Enfant Sauvage",
+				"year": 2012,
+				"genre": {
+					"name": "Groove metal"
+				}
+			}
+		]
+	},
+	{
+		"name": "Septicflesh",
+		"origin": "Atenas, Grecia",
+		"members": [
+			{
+				"name": "Sotiris Vayenas",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Spiros \"Seth\" Antoniou",
+				"instruments": [
+					"Voz",
+					"Bajo"
+				]
+			},
+			{
+				"name": "Christos Antoniou",
+				"instruments": [
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Kerim \"Krimh\" Lechner",
+				"instruments": [
+					"Batería"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 37,
+				"title": "Mystic Places of Dawn",
+				"year": 1994,
+				"genre": {
+					"name": "Death metal"
+				}
+			},
+			{
+				"id": 38,
+				"title": "Esoptron",
+				"year": 1995,
+				"genre": {
+					"name": "Death metal"
+				}
+			},
+			{
+				"id": 39,
+				"title": "The Ophidian Wheel",
+				"year": 1997,
+				"genre": {
+					"name": "Death metal"
+				}
+			},
+			{
+				"id": 40,
+				"title": "A Fallen Temple",
+				"year": 1997,
+				"genre": {
+					"name": "Death metal"
+				}
+			},
+			{
+				"id": 41,
+				"title": "Revolution DNA",
+				"year": 1999,
+				"genre": {
+					"name": "Gothic metal"
+				}
+			},
+			{
+				"id": 42,
+				"title": "Sumerian Daemons",
+				"year": 2002,
+				"genre": {
+					"name": "Death metal sinfónico"
+				}
+			},
+			{
+				"id": 43,
+				"title": "Communion",
+				"year": 2008,
+				"genre": {
+					"name": "Death metal sinfónico"
+				}
+			},
+			{
+				"id": 44,
+				"title": "The Great Mass",
+				"year": 2011,
+				"genre": {
+					"name": "Death metal sinfónico"
+				}
+			},
+			{
+				"id": 45,
+				"title": "Titan",
+				"year": 2014,
+				"genre": {
+					"name": "Death metal sinfónico"
+				}
+			}
+		]
+	},
+	{
+		"name": "Volbeat",
+		"origin": "Copenhague, Dinamarca",
+		"members": [
+			{
+				"name": "Michael Poulsen",
+				"instruments": [
+					"Voz",
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Anders Kjølholm",
+				"instruments": [
+					"Bajo"
+				]
+			},
+			{
+				"name": "Jon Larsen",
+				"instruments": [
+					"Batería"
+				]
+			},
+			{
+				"name": "Rob Caggiano",
+				"instruments": [
+					"Guitarra"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 46,
+				"title": "The Strength / The Sound / The Songs",
+				"year": 2005,
+				"genre": {
+					"name": "Hard rock"
+				}
+			},
+			{
+				"id": 47,
+				"title": "Rock the Rebel / Metal the Devil",
+				"year": 2007,
+				"genre": {
+					"name": "Hard rock"
+				}
+			},
+			{
+				"id": 48,
+				"title": "Guitar Gangsters & Cadillac Blood",
+				"year": 2008,
+				"genre": {
+					"name": "Hard rock"
+				}
+			},
+			{
+				"id": 49,
+				"title": "Beyond Hell / Above Heaven",
+				"year": 2010,
+				"genre": {
+					"name": "Hard rock"
+				}
+			},
+			{
+				"id": 50,
+				"title": "Outlaw Gentlemen & Shady Ladies",
+				"year": 2013,
+				"genre": {
+					"name": "Hard rock"
+				}
+			}
+		]
+	},
+	{
+		"name": "Baroness",
+		"origin": "Savannah, Georgia, Estados Unidos",
+		"members": [
+			{
+				"name": "John Baizley",
+				"instruments": [
+					"Voz",
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Peter Adams",
+				"instruments": [
+					"Voz",
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Nick Jost",
+				"instruments": [
+					"Bajo"
+				]
+			},
+			{
+				"name": "Sebastian Thomson",
+				"instruments": [
+					"Batería"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 51,
+				"title": "Red Album",
+				"year": 2007,
+				"genre": {
+					"name": "Sludge metal"
+				}
+			},
+			{
+				"id": 52,
+				"title": "Blue Record",
+				"year": 2009,
+				"genre": {
+					"name": "Sludge metal"
+				}
+			},
+			{
+				"id": 53,
+				"title": "Yellow & Green",
+				"year": 2010,
+				"genre": {
+					"name": "Stoner rock"
+				}
+			}
+		]
+	},
+	{
+		"name": "Killer Be Killed",
+		"origin": "Phoenix, Arizona, Estados Unidos",
+		"members": [
+			{
+				"name": "Greg Puciato",
+				"instruments": [
+					"Voz",
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Max Cavalera",
+				"instruments": [
+					"Voz",
+					"Guitarra"
+				]
+			},
+			{
+				"name": "Dave Elitch",
+				"instruments": [
+					"Batería"
+				]
+			},
+			{
+				"name": "Troy Sanders",
+				"instruments": [
+					"Voz",
+					"Bajo"
+				]
+			}
+		],
+		"albums": [
+			{
+				"id": 54,
+				"title": "Killer Be Killed",
+				"year": 2014,
+				"genre": {
+					"name": "Metalcore"
+				}
+			}
+		]
+	}
+]

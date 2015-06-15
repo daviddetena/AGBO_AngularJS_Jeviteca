@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="en" ng-app="jeviteca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jeviteca - David de Tena</title>
+        <!-- Latest compiled and minified Bootstrap's CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!-- AngularJS files -->
+        <script src="vendor/angular.min.js"></script>
+        <script src="vendor/angular-route.min.js"></script>
+        <script src="vendor/angular-route-segment.min.js"></script>
+        <script src="scripts/app.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Jeviteca <small>by David de Tena</small></h1>
+                <h3>Your library with the best heavy metal bands ever</h3>
+            </header>
+            <nav>
+                <ul class="nav nav-tabs">
+                    <li role="presentation"><a>Bands</a></li>
+                    <li role="presentation"><a>Albums</a></li>
+                    <li role="presentation"><a>Genres</a></li>
+                </ul>
+            </nav>
+            <section app-view-segment="0"></section>
+        </div>
+        <script>
+            // Automatic bootstraping
+            angular.module("jeviteca",[]);
+        </script>
+    </body>
+</html>

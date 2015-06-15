@@ -1,0 +1,499 @@
+[
+	{
+		"name": "Sludge metal",
+		"albums": [
+			{
+				"id": 1,
+				"title": "Remission",
+				"year": 2002,
+				"band": {
+					"name": "Mastodon"
+				}
+			},
+			{
+				"id": 5,
+				"title": "The Hunter",
+				"year": 2011,
+				"band": {
+					"name": "Mastodon"
+				}
+			},
+			{
+				"id": 6,
+				"title": "Once More 'Round the Sun",
+				"year": 2014,
+				"band": {
+					"name": "Mastodon"
+				}
+			},
+			{
+				"id": 51,
+				"title": "Red Album",
+				"year": 2007,
+				"band": {
+					"name": "Baroness"
+				}
+			},
+			{
+				"id": 52,
+				"title": "Blue Record",
+				"year": 2009,
+				"band": {
+					"name": "Baroness"
+				}
+			}
+		]
+	},
+	{
+		"name": "Groove metal",
+		"albums": [
+			{
+				"id": 2,
+				"title": "Leviathan",
+				"year": 2004,
+				"band": {
+					"name": "Mastodon"
+				}
+			},
+			{
+				"id": 10,
+				"title": "All Hope Is Gone",
+				"year": 2008,
+				"band": {
+					"name": "Slipknot"
+				}
+			},
+			{
+				"id": 11,
+				"title": ".5: The Gray Chapter",
+				"year": 2014,
+				"band": {
+					"name": "Slipknot"
+				}
+			},
+			{
+				"id": 17,
+				"title": "Burn the Priest",
+				"year": 1999,
+				"band": {
+					"name": "Lamb of God"
+				}
+			},
+			{
+				"id": 18,
+				"title": "New American Gospel",
+				"year": 2000,
+				"band": {
+					"name": "Lamb of God"
+				}
+			},
+			{
+				"id": 19,
+				"title": "As the Palaces Burn",
+				"year": 2003,
+				"band": {
+					"name": "Lamb of God"
+				}
+			},
+			{
+				"id": 20,
+				"title": "Ashes of the Wake",
+				"year": 2004,
+				"band": {
+					"name": "Lamb of God"
+				}
+			},
+			{
+				"id": 21,
+				"title": "Sacrament",
+				"year": 2006,
+				"band": {
+					"name": "Lamb of God"
+				}
+			},
+			{
+				"id": 22,
+				"title": "Wrath",
+				"year": 2009,
+				"band": {
+					"name": "Lamb of God"
+				}
+			},
+			{
+				"id": 23,
+				"title": "Resolution",
+				"year": 2012,
+				"band": {
+					"name": "Lamb of God"
+				}
+			},
+			{
+				"id": 32,
+				"title": "Terra Incognita",
+				"year": 2001,
+				"band": {
+					"name": "Gojira"
+				}
+			},
+			{
+				"id": 33,
+				"title": "The Link",
+				"year": 2003,
+				"band": {
+					"name": "Gojira"
+				}
+			},
+			{
+				"id": 34,
+				"title": "From Mars to Sirius",
+				"year": 2005,
+				"band": {
+					"name": "Gojira"
+				}
+			},
+			{
+				"id": 35,
+				"title": "The Way of All Flesh",
+				"year": 2008,
+				"band": {
+					"name": "Gojira"
+				}
+			},
+			{
+				"id": 36,
+				"title": "L'Enfant Sauvage",
+				"year": 2012,
+				"band": {
+					"name": "Gojira"
+				}
+			}
+		]
+	},
+	{
+		"name": "Progressive metal",
+		"albums": [
+			{
+				"id": 3,
+				"title": "Blood Mountain",
+				"year": 2006,
+				"band": {
+					"name": "Mastodon"
+				}
+			},
+			{
+				"id": 4,
+				"title": "Crack the Skye",
+				"year": 2009,
+				"band": {
+					"name": "Mastodon"
+				}
+			}
+		]
+	},
+	{
+		"name": "Nu metal",
+		"albums": [
+			{
+				"id": 7,
+				"title": "Slipknot",
+				"year": 1999,
+				"band": {
+					"name": "Slipknot"
+				}
+			},
+			{
+				"id": 8,
+				"title": "Iowa",
+				"year": 2001,
+				"band": {
+					"name": "Slipknot"
+				}
+			},
+			{
+				"id": 9,
+				"title": "Vol. 3: (The Subliminal Verses)",
+				"year": 2004,
+				"band": {
+					"name": "Slipknot"
+				}
+			}
+		]
+	},
+	{
+		"name": "Alternative metal",
+		"albums": [
+			{
+				"id": 12,
+				"title": "Stone Sour",
+				"year": 2002,
+				"band": {
+					"name": "Stone Sour"
+				}
+			},
+			{
+				"id": 13,
+				"title": "Come What(ever) May",
+				"year": 2006,
+				"band": {
+					"name": "Stone Sour"
+				}
+			},
+			{
+				"id": 14,
+				"title": "Audio Secrecy",
+				"year": 2010,
+				"band": {
+					"name": "Stone Sour"
+				}
+			},
+			{
+				"id": 15,
+				"title": "House of Gold & Bones Part 1",
+				"year": 2012,
+				"band": {
+					"name": "Stone Sour"
+				}
+			},
+			{
+				"id": 16,
+				"title": "House of Gold & Bones Part 2",
+				"year": 2013,
+				"band": {
+					"name": "Stone Sour"
+				}
+			}
+		]
+	},
+	{
+		"name": "Thrash metal",
+		"albums": [
+			{
+				"id": 24,
+				"title": "Soul of a New Machine",
+				"year": 1992,
+				"band": {
+					"name": "Fear Factory"
+				}
+			}
+		]
+	},
+	{
+		"name": "Industrial metal",
+		"albums": [
+			{
+				"id": 25,
+				"title": "Demanufacture",
+				"year": 1995,
+				"band": {
+					"name": "Fear Factory"
+				}
+			},
+			{
+				"id": 26,
+				"title": "Obsolete",
+				"year": 1998,
+				"band": {
+					"name": "Fear Factory"
+				}
+			},
+			{
+				"id": 27,
+				"title": "Digimortal",
+				"year": 2001,
+				"band": {
+					"name": "Fear Factory"
+				}
+			},
+			{
+				"id": 28,
+				"title": "Archetype",
+				"year": 2004,
+				"band": {
+					"name": "Fear Factory"
+				}
+			},
+			{
+				"id": 29,
+				"title": "Transgression",
+				"year": 2005,
+				"band": {
+					"name": "Fear Factory"
+				}
+			},
+			{
+				"id": 30,
+				"title": "Mechanize",
+				"year": 2010,
+				"band": {
+					"name": "Fear Factory"
+				}
+			},
+			{
+				"id": 31,
+				"title": "The Industrialist",
+				"year": 2012,
+				"band": {
+					"name": "Fear Factory"
+				}
+			}
+		]
+	},
+	{
+		"name": "Death metal",
+		"albums": [
+			{
+				"id": 37,
+				"title": "Mystic Places of Dawn",
+				"year": 1994,
+				"band": {
+					"name": "Septicflesh"
+				}
+			},
+			{
+				"id": 38,
+				"title": "Esoptron",
+				"year": 1995,
+				"band": {
+					"name": "Septicflesh"
+				}
+			},
+			{
+				"id": 39,
+				"title": "The Ophidian Wheel",
+				"year": 1997,
+				"band": {
+					"name": "Septicflesh"
+				}
+			},
+			{
+				"id": 40,
+				"title": "A Fallen Temple",
+				"year": 1997,
+				"band": {
+					"name": "Septicflesh"
+				}
+			}
+		]
+	},
+	{
+		"name": "Gothic metal",
+		"albums": [
+			{
+				"id": 41,
+				"title": "Revolution DNA",
+				"year": 1999,
+				"band": {
+					"name": "Septicflesh"
+				}
+			}
+		]
+	},
+	{
+		"name": "Death metal sinfónico",
+		"albums": [
+			{
+				"id": 42,
+				"title": "Sumerian Daemons",
+				"year": 2002,
+				"band": {
+					"name": "Septicflesh"
+				}
+			},
+			{
+				"id": 43,
+				"title": "Communion",
+				"year": 2008,
+				"band": {
+					"name": "Septicflesh"
+				}
+			},
+			{
+				"id": 44,
+				"title": "The Great Mass",
+				"year": 2011,
+				"band": {
+					"name": "Septicflesh"
+				}
+			},
+			{
+				"id": 45,
+				"title": "Titan",
+				"year": 2014,
+				"band": {
+					"name": "Septicflesh"
+				}
+			}
+		]
+	},
+	{
+		"name": "Hard rock",
+		"albums": [
+			{
+				"id": 46,
+				"title": "The Strength / The Sound / The Songs",
+				"year": 2005,
+				"band": {
+					"name": "Volbeat"
+				}
+			},
+			{
+				"id": 47,
+				"title": "Rock the Rebel / Metal the Devil",
+				"year": 2007,
+				"band": {
+					"name": "Volbeat"
+				}
+			},
+			{
+				"id": 48,
+				"title": "Guitar Gangsters & Cadillac Blood",
+				"year": 2008,
+				"band": {
+					"name": "Volbeat"
+				}
+			},
+			{
+				"id": 49,
+				"title": "Beyond Hell / Above Heaven",
+				"year": 2010,
+				"band": {
+					"name": "Volbeat"
+				}
+			},
+			{
+				"id": 50,
+				"title": "Outlaw Gentlemen & Shady Ladies",
+				"year": 2013,
+				"band": {
+					"name": "Volbeat"
+				}
+			}
+		]
+	},
+	{
+		"name": "Stoner rock",
+		"albums": [
+			{
+				"id": 53,
+				"title": "Yellow & Green",
+				"year": 2010,
+				"band": {
+					"name": "Baroness"
+				}
+			}
+		]
+	},
+	{
+		"name": "Metalcore",
+		"albums": [
+			{
+				"id": 54,
+				"title": "Killer Be Killed",
+				"year": 2014,
+				"band": {
+					"name": "Killer Be Killed"
+				}
+			}
+		]
+	}
+]

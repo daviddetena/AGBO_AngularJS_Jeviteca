@@ -1,0 +1,1404 @@
+[
+	{
+		"id": 1,
+		"title": "Remission",
+		"year": 2002,
+		"band": {
+			"name": "Mastodon"
+		},
+		"genre": {
+			"name": "Sludge metal"
+		},
+		"image": "1-mastodon-remission.jpg",
+		"tracklist": [
+			"Crusher Destroyer",
+			"March of the Fire Ants",
+			"Where Strides the Behemoth",
+			"Workhorse",
+			"Ol'e Nessie",
+			"Burning Man",
+			"Trainwreck",
+			"Trampled Under Hoof",
+			"Trilobite",
+			"Mother Puncher",
+			"Elephant Man"
+		]
+	},
+	{
+		"id": 2,
+		"title": "Leviathan",
+		"year": 2004,
+		"band": {
+			"name": "Mastodon"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "2-mastodon-leviathan.jpg",
+		"tracklist": [
+			"Blood and Thunder",
+			"I Am Ahab",
+			"Seabeast",
+			"Island",
+			"Iron Tusk",
+			"Megalodon",
+			"Naked Burn",
+			"Aqua Dementia",
+			"Hearts Alive",
+			"Joseph Merrick"
+		]
+	},
+	{
+		"id": 3,
+		"title": "Blood Mountain",
+		"year": 2006,
+		"band": {
+			"name": "Mastodon"
+		},
+		"genre": {
+			"name": "Progressive metal"
+		},
+		"image": "3-mastodon-blood-mountain.jpg",
+		"tracklist": [
+			"The Wolf Is Loose",
+			"Crystal Skull",
+			"Sleeping Giant",
+			"Capillarian Crest",
+			"Circle of Cysquatch",
+			"Bladecatcher",
+			"Colony of Birchmen",
+			"Hunters of the Sky",
+			"Hand of Stone",
+			"This Mortal Soil",
+			"Siberian Divide",
+			"Pendulous Skin"
+		]
+	},
+	{
+		"id": 4,
+		"title": "Crack the Skye",
+		"year": 2009,
+		"band": {
+			"name": "Mastodon"
+		},
+		"genre": {
+			"name": "Progressive metal"
+		},
+		"image": "4-mastodon-crack-the-skye.jpg",
+		"tracklist": [
+			"Oblivion",
+			"Divinations",
+			"Quintessence",
+			"The Czar: Usurper / Escape / Martyr / Spiral",
+			"Ghost of Karelia",
+			"Crack the Skye",
+			"The Last Baron"
+		]
+	},
+	{
+		"id": 5,
+		"title": "The Hunter",
+		"year": 2011,
+		"band": {
+			"name": "Mastodon"
+		},
+		"genre": {
+			"name": "Sludge metal"
+		},
+		"image": "5-mastodon-the-hunter.jpg",
+		"tracklist": [
+			"Black Tongue",
+			"Curl of the Burl",
+			"Blasteroid",
+			"Stargasm",
+			"Octopus Has No Friends",
+			"All the Heavy Lifting",
+			"The Hunter",
+			"Dry Bone Valley",
+			"Thickening",
+			"Creature Lives",
+			"Spectrelight",
+			"Bedazzled Fingernails",
+			"The Sparrow"
+		]
+	},
+	{
+		"id": 6,
+		"title": "Once More 'Round the Sun",
+		"year": 2014,
+		"band": {
+			"name": "Mastodon"
+		},
+		"genre": {
+			"name": "Sludge metal"
+		},
+		"image": "6-mastodon-once-more-round-the-sun.jpg",
+		"tracklist": [
+			"Tread Lightly",
+			"The Motherload",
+			"High Road",
+			"Once More 'Round the Sun",
+			"Chimes at Midnight",
+			"Asleep in the Deep",
+			"Feast Your Eyes",
+			"Aunt Lisa",
+			"Ember City",
+			"Halloween",
+			"Diamond in the Witch House"
+		]
+	},
+	{
+		"id": 7,
+		"title": "Slipknot",
+		"year": 1999,
+		"band": {
+			"name": "Slipknot"
+		},
+		"genre": {
+			"name": "Nu metal"
+		},
+		"image": "7-slipknot-slipknot.jpg",
+		"tracklist": [
+			"742617000027",
+			"(sic)",
+			"Eyeless",
+			"Wait and Bleed",
+			"Surfacing",
+			"Spit It Out",
+			"Tattered & Torn",
+			"Frail Limb Nursery",
+			"Purity",
+			"Liberate",
+			"Prosthetics",
+			"No Life",
+			"Diluted",
+			"Only One",
+			"Scissors",
+			"Eeyore"
+		]
+	},
+	{
+		"id": 8,
+		"title": "Iowa",
+		"year": 2001,
+		"band": {
+			"name": "Slipknot"
+		},
+		"genre": {
+			"name": "Nu metal"
+		},
+		"image": "8-slipknot-iowa.jpg",
+		"tracklist": [
+			"(515)",
+			"People = Shit",
+			"Disasterpiece",
+			"My Plague",
+			"Everything Ends",
+			"The Heretic Anthem",
+			"Gently",
+			"Left Behind",
+			"The Shape",
+			"I Am Hated",
+			"Skin Ticket",
+			"New Abortion",
+			"Metabolic",
+			"Iowa"
+		]
+	},
+	{
+		"id": 9,
+		"title": "Vol. 3: (The Subliminal Verses)",
+		"year": 2004,
+		"band": {
+			"name": "Slipknot"
+		},
+		"genre": {
+			"name": "Nu metal"
+		},
+		"image": "9-slipknot-vol-3-the-subliminal-verses.jpg",
+		"tracklist": [
+			"Prelude 3.0",
+			"The Blister Exists",
+			"Three Nil",
+			"Duality",
+			"Opium of the People",
+			"Circle",
+			"Welcome",
+			"Vermilion",
+			"Pulse of the Maggots",
+			"Before I Forget",
+			"Vermilion Pt. 2",
+			"The Nameless",
+			"The Virus of Life",
+			"Danger – Keep Away"
+		]
+	},
+	{
+		"id": 10,
+		"title": "All Hope Is Gone",
+		"year": 2008,
+		"band": {
+			"name": "Slipknot"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "10-slipknot-all-hope-is-gone.jpg",
+		"tracklist": [
+			".execute.",
+			"Gematria (The Killing Name)",
+			"Sulfur",
+			"Psychosocial",
+			"Dead Memories",
+			"Vendetta",
+			"Butcher's Hook",
+			"Gehenna",
+			"This Cold Black",
+			"Wherein Lies Continue",
+			"Snuff",
+			"All Hope Is Gone"
+		]
+	},
+	{
+		"id": 11,
+		"title": ".5: The Gray Chapter",
+		"year": 2014,
+		"band": {
+			"name": "Slipknot"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "11-slipknot-5-the-gray-chapter.jpg",
+		"tracklist": [
+			"XIX",
+			"Sarcastrophe",
+			"AOV",
+			"The Devil in I",
+			"Killpop",
+			"Skeptic",
+			"Lech",
+			"Goodbye",
+			"Nomadic",
+			"The One That Kills the Least",
+			"Custer",
+			"Be Prepared for Hell",
+			"The Negative One",
+			"If Rain Is What You Want"
+		]
+	},
+	{
+		"id": 12,
+		"title": "Stone Sour",
+		"year": 2002,
+		"band": {
+			"name": "Stone Sour"
+		},
+		"genre": {
+			"name": "Alternative metal"
+		},
+		"image": "12-stone-sour-stone-sour.jpg",
+		"tracklist": [
+			"Get Inside",
+			"Orchids",
+			"Cold Reader",
+			"Blotter",
+			"Choose",
+			"Monolith",
+			"Inhale",
+			"Bother",
+			"Blue Study",
+			"Take a Number",
+			"Idle Hands",
+			"Tumult",
+			"Omega"
+		]
+	},
+	{
+		"id": 13,
+		"title": "Come What(ever) May",
+		"year": 2006,
+		"band": {
+			"name": "Stone Sour"
+		},
+		"genre": {
+			"name": "Alternative metal"
+		},
+		"image": "13-stone-sour-come-what-ever-may.jpg",
+		"tracklist": [
+			"30/30-150",
+			"Come What(ever) May",
+			"Hell & Consequences",
+			"Sillyworld",
+			"Made of Scars",
+			"Reborn",
+			"Your God",
+			"Through Glass",
+			"Socio",
+			"1st Person",
+			"Cardiff",
+			"Zzyzx Rd."
+		]
+	},
+	{
+		"id": 14,
+		"title": "Audio Secrecy",
+		"year": 2010,
+		"band": {
+			"name": "Stone Sour"
+		},
+		"genre": {
+			"name": "Alternative metal"
+		},
+		"image": "14-stone-sour-audio-secrecy.jpg",
+		"tracklist": [
+			"Audio Secrecy",
+			"Mission Statement",
+			"Digital (Did You Tell)",
+			"Say You'll Haunt Me",
+			"Dying",
+			"Let's Be Honest",
+			"Unfinished",
+			"Hesitate",
+			"Nylon 6/6",
+			"Miracles",
+			"Pieces",
+			"The Bitter End",
+			"Imperfect",
+			"Threadbare"
+		]
+	},
+	{
+		"id": 15,
+		"title": "House of Gold & Bones Part 1",
+		"year": 2012,
+		"band": {
+			"name": "Stone Sour"
+		},
+		"genre": {
+			"name": "Alternative metal"
+		},
+		"image": "15-stone-sour-house-of-gold-bones-part-1.jpg",
+		"tracklist": [
+			"Gone Sovereign",
+			"Absolute Zero",
+			"A Rumor of Skin",
+			"The Travelers, Pt. 1",
+			"Tired",
+			"RU486",
+			"My Name Is Allen",
+			"Taciturn",
+			"Influence of a Drowsy God",
+			"The Travelers, Pt. 2",
+			"Last of the Real"
+		]
+	},
+	{
+		"id": 16,
+		"title": "House of Gold & Bones Part 2",
+		"year": 2013,
+		"band": {
+			"name": "Stone Sour"
+		},
+		"genre": {
+			"name": "Alternative metal"
+		},
+		"image": "16-stone-sour-house-of-gold-bones-part-2.jpg",
+		"tracklist": [
+			"Red City",
+			"Black John",
+			"Sadist",
+			"Peckinpah",
+			"Stalemate",
+			"Gravesend",
+			"'82",
+			"The Uncanny Valley",
+			"Blue Smoke",
+			"Do Me a Favor",
+			"The Conflagration",
+			"The House of Gold & Bones"
+		]
+	},
+	{
+		"id": 17,
+		"title": "Burn the Priest",
+		"year": 1999,
+		"band": {
+			"name": "Lamb of God"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "17-lamb-of-god-burn-the-priest.jpg",
+		"tracklist": [
+			"Bloodletting",
+			"Dimera",
+			"Resurrection #9",
+			"Goatfish",
+			"Salvation",
+			"Lies of Autumn",
+			"Chronic Auditory Hallucination",
+			"Suffering Bastard",
+			"Buckeye",
+			"Lame",
+			"Preaching to the Converted",
+			"Departure Hymn",
+			"Duane",
+			"Ruiner"
+		]
+	},
+	{
+		"id": 18,
+		"title": "New American Gospel",
+		"year": 2000,
+		"band": {
+			"name": "Lamb of God"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "18-lamb-of-god-new-american-gospel.jpg",
+		"tracklist": [
+			"Black Label",
+			"A Warning",
+			"In the Absence of the Sacred",
+			"Letter to the Unborn",
+			"The Black Dahlia",
+			"Terror and Hubris in the House of Frank Pollard",
+			"The Subtle Arts of Murder and Persuasion",
+			"Pariah",
+			"Confessional",
+			"O.D.H.G.A.B.F.E."
+		]
+	},
+	{
+		"id": 19,
+		"title": "As the Palaces Burn",
+		"year": 2003,
+		"band": {
+			"name": "Lamb of God"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "19-lamb-of-god-as-the-palaces-burn.jpg",
+		"tracklist": [
+			"Ruin",
+			"As the Palaces Burn",
+			"Purified",
+			"11th Hour",
+			"For Your Malice",
+			"Boot Scraper",
+			"A Devil in God's Country",
+			"In Defense of Our Good Name",
+			"Blood Junkie",
+			"Vigil"
+		]
+	},
+	{
+		"id": 20,
+		"title": "Ashes of the Wake",
+		"year": 2004,
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "20-lamb-of-god-ashes-of-the-wake.jpg",
+		"tracklist": [
+			"Laid to Rest",
+			"Hourglass",
+			"Now You've Got Something to Die For",
+			"The Faded Line",
+			"Omerta",
+			"Blood of the Scribe",
+			"One Gun",
+			"Break You",
+			"What I've Become",
+			"Ashes of the Wake",
+			"Remorse Is for the Dead"
+		]
+	},
+	{
+		"id": 21,
+		"title": "Sacrament",
+		"year": 2006,
+		"band": {
+			"name": "Lamb of God"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "21-lamb-of-god-sacrament.jpg",
+		"tracklist": [
+			"Walk with Me in Hell",
+			"Again We Rise",
+			"Redneck",
+			"Pathetic",
+			"Foot to the Throat",
+			"Descending",
+			"Blacken the Cursed Sun",
+			"Forgotten (Lost Angels)",
+			"Requiem",
+			"More Time to Kill",
+			"Beating on Death's Door"
+		]
+	},
+	{
+		"id": 22,
+		"title": "Wrath",
+		"year": 2009,
+		"band": {
+			"name": "Lamb of God"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "22-lamb-of-god-wrath.jpg",
+		"tracklist": [
+			"The Passing",
+			"In Your Words",
+			"Set to Fail",
+			"Contractor",
+			"Fake Messiah",
+			"Grace",
+			"Broken Hands",
+			"Dead Seeds",
+			"Everything to Nothing",
+			"Choke Sermon",
+			"Reclamation"
+		]
+	},
+	{
+		"id": 23,
+		"title": "Resolution",
+		"year": 2012,
+		"band": {
+			"name": "Lamb of God"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "23-lamb-of-god-resolution.jpg",
+		"tracklist": [
+			"Straight for the Sun",
+			"Desolation",
+			"Ghost Walking",
+			"Guilty",
+			"The Undertow",
+			"The Number Six",
+			"Barbarosa",
+			"Invictus",
+			"Cheated",
+			"Insurrection",
+			"Terminally Unique",
+			"To the End",
+			"Visitation",
+			"King Me"
+		]
+	},
+	{
+		"id": 24,
+		"title": "Soul of a New Machine",
+		"year": 1992,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Thrash metal"
+		},
+		"image": "24-fear-factory-soul-of-a-new-machine.jpg",
+		"tracklist": [
+			"Martyr",
+			"Leechmaster",
+			"Scapegoat",
+			"Crisis",
+			"Crash Test",
+			"Flesh Hold",
+			"Lifeblind",
+			"Scumgrief",
+			"Natividad",
+			"Big God/Raped Souls",
+			"Arise Above Oppression",
+			"Self Immolation",
+			"Suffer Age",
+			"W.O.E.",
+			"Desecrate",
+			"Escape Confusion",
+			"Manipulation"
+		]
+	},
+	{
+		"id": 25,
+		"title": "Demanufacture",
+		"year": 1995,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Industrial metal"
+		},
+		"image": "25-fear-factory-demanufacture.jpg",
+		"tracklist": [
+			"Demanufacture",
+			"Self Bias Resistor",
+			"Zero Signal",
+			"Replica",
+			"New Breed",
+			"Dog Day Sunrise",
+			"Body Hammer",
+			"Flashpoint",
+			"H-K (Hunter-Killer)",
+			"Pisschrist",
+			"A Therapy for Pain"
+		]
+	},
+	{
+		"id": 26,
+		"title": "Obsolete",
+		"year": 1998,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Industrial metal"
+		},
+		"image": "26-fear-factory-obsolete.jpg",
+		"tracklist": [
+			"Shock",
+			"Edgecrusher",
+			"Smasher/Devourer",
+			"Securitron (police state 2000)",
+			"Descent",
+			"Hi-Tech Hate",
+			"Freedom or Fire",
+			"Obsolete",
+			"Resurrection",
+			"Timelessness"
+		]
+	},
+	{
+		"id": 27,
+		"title": "Digimortal",
+		"year": 2001,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Industrial metal"
+		},
+		"image": "27-fear-factory-digimortal.jpg",
+		"tracklist": [
+			"What Will Become?",
+			"Damaged",
+			"Digimortal",
+			"No One",
+			"Linchpin",
+			"Invisible Wounds (Dark Bodies)",
+			"Acres of Skin",
+			"Back the Fuck Up",
+			"Byte Block",
+			"Hurt Conveyor",
+			"(Memory Imprints) Never End"
+		]
+	},
+	{
+		"id": 28,
+		"title": "Archetype",
+		"year": 2004,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Industrial metal"
+		},
+		"image": "28-fear-factory-archetype.jpg",
+		"tracklist": [
+			"Slave Labor",
+			"Cyberwaste",
+			"Act of God",
+			"Drones",
+			"Archetype",
+			"Corporate Cloning",
+			"Bite the Hand That Bleeds",
+			"Undercurrent",
+			"Default Judgement",
+			"Bonescraper",
+			"Human Shields",
+			"Ascension",
+			"School"
+		]
+	},
+	{
+		"id": 29,
+		"title": "Transgression",
+		"year": 2005,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Industrial metal"
+		},
+		"image": "29-fear-factory-transgression.jpg",
+		"tracklist": [
+			"540,000° Fahrenheit",
+			"Transgression",
+			"Spinal Compression",
+			"Contagion",
+			"Empty Vision",
+			"Echo of My Scream",
+			"Supernova",
+			"New Promise",
+			"I Will Follow",
+			"Millennium",
+			"Moment of Impact",
+			"Empire"
+		]
+	},
+	{
+		"id": 30,
+		"title": "Mechanize",
+		"year": 2010,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Industrial metal"
+		},
+		"image": "30-fear-factory-mechanize.jpg",
+		"tracklist": [
+			"Mechanize",
+			"Industrial Discipline",
+			"Fear Campaign",
+			"Powershifter",
+			"Christploitation",
+			"Oxidizer",
+			"Controlled Demolition",
+			"Designing the Enemy",
+			"Metallic Division",
+			"Final Exit"
+		]
+	},
+	{
+		"id": 31,
+		"title": "The Industrialist",
+		"year": 2012,
+		"band": {
+			"name": "Fear Factory"
+		},
+		"genre": {
+			"name": "Industrial metal"
+		},
+		"image": "31-fear-factory-the-industrialist.jpg",
+		"tracklist": [
+			"The Industrialist",
+			"Recharger",
+			"New Messiah",
+			"God Eater",
+			"Depraved Mind Murder",
+			"Virus of Faith",
+			"Difference Engine",
+			"Disassemble",
+			"Religion Is Flawed Because Man Is Flawed",
+			"Human Augmentation"
+		]
+	},
+	{
+		"id": 32,
+		"title": "Terra Incognita",
+		"year": 2001,
+		"band": {
+			"name": "Gojira"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "32-gojira-terra-incognita.jpg",
+		"tracklist": [
+			"Clone",
+			"Lizard Skin",
+			"Satan Is a Lawyer",
+			"04",
+			"Blow Me Away You(niverse)",
+			"5988 Trillions de Tonnes",
+			"Deliverance",
+			"Space Time",
+			"On the B.O.T.A",
+			"Rise",
+			"Fire Is Everything",
+			"Love",
+			"1990 Quatrillions de Tonnes",
+			"In the Forest"
+		]
+	},
+	{
+		"id": 33,
+		"title": "The Link",
+		"year": 2003,
+		"band": {
+			"name": "Gojira"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "33-gojira-the-link.jpg",
+		"tracklist": [
+			"The Link",
+			"Death of Me",
+			"Connected",
+			"Remembrance",
+			"Torii",
+			"Indians",
+			"Embrace the World",
+			"Inward Movement",
+			"Over the Flows",
+			"Wisdom Comes",
+			"Dawn"
+		]
+	},
+	{
+		"id": 34,
+		"title": "From Mars to Sirius",
+		"year": 2005,
+		"band": {
+			"name": "Gojira"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "34-gojira-from-mars-to-sirius.jpg",
+		"tracklist": [
+			"Ocean Planet",
+			"Backbone",
+			"From the Sky",
+			"Unicorn",
+			"Where Dragons Dwell",
+			"The Heaviest Matter of the Universe",
+			"Flying Whales",
+			"In the Wilderness",
+			"World to Come",
+			"From Mars",
+			"To Sirius",
+			"Global Warming"
+		]
+	},
+	{
+		"id": 35,
+		"title": "The Way of All Flesh",
+		"year": 2008,
+		"band": {
+			"name": "Gojira"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "35-gojira-the-way-of-all-flesh.jpg",
+		"tracklist": [
+			"Oroborus",
+			"Toxic Garbage Island",
+			"A Sight to Behold",
+			"Yama's Messengers",
+			"The Silver Cord",
+			"All the Tears",
+			"Adoration for None",
+			"The Art of Dying",
+			"Esoteric Surgery",
+			"Vacuity",
+			"Wolf Down the Earth",
+			"The Way of All Flesh"
+		]
+	},
+	{
+		"id": 36,
+		"title": "L'Enfant Sauvage",
+		"year": 2012,
+		"band": {
+			"name": "Gojira"
+		},
+		"genre": {
+			"name": "Groove metal"
+		},
+		"image": "36-gojira-l-enfant-sauvage.jpg",
+		"tracklist": [
+			"Explosia",
+			"L'Enfant Sauvage",
+			"The Axe",
+			"Liquid Fire",
+			"The Wild Healer",
+			"Planned Obsolescence",
+			"Mouth of Kala",
+			"The Gift of Guilt",
+			"Pain Is a Master",
+			"Born in Winter",
+			"The Fall"
+		]
+	},
+	{
+		"id": 37,
+		"title": "Mystic Places of Dawn",
+		"year": 1994,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal"
+		},
+		"image": "37-septicflesh-mystic-places-of-dawn.jpg",
+		"tracklist": [
+			"Mystic Places of Dawn",
+			"Pale Beauty of the Past",
+			"Return to Carthage",
+			"Crescent Moon",
+			"Chasing the Chimera",
+			"The Underwater Garden",
+			"Behind the Iron Mask",
+			"(Morpheus) the Dreamlord",
+			"Mythos (Part I: Elegy - Part II: Time Unbounded)"
+		]
+	},
+	{
+		"id": 38,
+		"title": "Esoptron",
+		"year": 1995,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal"
+		},
+		"image": "38-septicflesh-esoptron.jpg",
+		"tracklist": [
+			"Breaking the Inner Seal",
+			"Esoptron",
+			"Burning Phoenix",
+			"Astral Sea",
+			"Rain",
+			"Ice Castle",
+			"Celebration",
+			"Succubus Priestess",
+			"So Clean, So Empty",
+			"The Eyes of Set",
+			"Narcissism"
+		]
+	},
+	{
+		"id": 39,
+		"title": "The Ophidian Wheel",
+		"year": 1997,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal"
+		},
+		"image": "39-septicflesh-the-ophidian-wheel.jpg",
+		"tracklist": [
+			"The Future Belongs to the Brave",
+			"The Ophidian Wheel",
+			"Phallic Litanies",
+			"Razor Blades of Guilt",
+			"Tartarus",
+			"On the Topmost Step of the Earth",
+			"Microcosmos",
+			"Geometry in Static",
+			"Shamanic Rite",
+			"Heaven Below",
+			"Enchantment"
+		]
+	},
+	{
+		"id": 40,
+		"title": "A Fallen Temple",
+		"year": 1997,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal"
+		},
+		"image": "40-septicflesh-a-fallen-temple.jpg",
+		"tracklist": [
+			"Brotherhood Of The Fallen Knights",
+			"The Eldest Cosmonaut",
+			"Marble Smiling Face",
+			"Underworld - Act I",
+			"Temple Of The Lost Race",
+			"The Crypt",
+			"Setting Of The Two Suns",
+			"Erebus",
+			"Underworld - Act II",
+			"The Eldest Cosmonaut (Dark Version)"
+		]
+	},
+	{
+		"id": 41,
+		"title": "Revolution DNA",
+		"year": 1999,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Gothic metal"
+		},
+		"image": "41-septicflesh-revolution-dna.jpg",
+		"tracklist": [
+			"Science",
+			"Chaostar",
+			"Radioactive",
+			"Little Music Box",
+			"Revolution",
+			"Nephilim Sons",
+			"DNA",
+			"Telescope",
+			"Last Stop to Nowhere",
+			"Dictatorship of the Mediocre",
+			"Android",
+			"Arctic Circle",
+			"Age of New Messiahs"
+		]
+	},
+	{
+		"id": 42,
+		"title": "Sumerian Daemons",
+		"year": 2002,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal sinfónico"
+		},
+		"image": "42-septicflesh-sumerean-daemons.jpg",
+		"tracklist": [
+			"Behold... the Land of Promise",
+			"Unbeliever",
+			"Virtues of the Beast",
+			"Faust",
+			"When All is None",
+			"Red Code Cult",
+			"Dark River",
+			"Magic Loves Infinity",
+			"Sumerian Daemon",
+			"Mechanical Babylon",
+			"Infernal Sun",
+			"The Watchers",
+			"Shapeshifter"
+		]
+	},
+	{
+		"id": 43,
+		"title": "Communion",
+		"year": 2008,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal sinfónico"
+		},
+		"image": "43-septicflesh-communion.jpg",
+		"tracklist": [
+			"Lovecraft's Death",
+			"Anubis",
+			"Communion",
+			"Babel's Gate",
+			"We, The Gods",
+			"Sunlight/Moonlight",
+			"Persepolis",
+			"Sangreal",
+			"Narcissus"
+		]
+	},
+	{
+		"id": 44,
+		"title": "The Great Mass",
+		"year": 2011,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal sinfónico"
+		},
+		"image": "44-septicflesh-the-great-mass.jpg",
+		"tracklist": [
+			"The Vampire from Nazareth",
+			"A Great Mass of Death",
+			"Pyramid God",
+			"Five-Pointed Star",
+			"Oceans of Grey",
+			"The Undead Keep Dreaming",
+			"Rising",
+			"Apocalypse",
+			"Mad Architect",
+			"Therianthropy"
+		]
+	},
+	{
+		"id": 45,
+		"title": "Titan",
+		"year": 2014,
+		"band": {
+			"name": "Septicflesh"
+		},
+		"genre": {
+			"name": "Death metal sinfónico"
+		},
+		"image": "45-septicflesh-titan.jpg",
+		"tracklist": [
+			"War in Heaven",
+			"Burn",
+			"Order of Dracul",
+			"Prototype",
+			"Dogma",
+			"Prometheus",
+			"Titan",
+			"Confessions of a Serial Killer",
+			"Ground Zero",
+			"The First Immortal"
+		]
+	},
+	{
+		"id": 46,
+		"title": "The Strength / The Sound / The Songs",
+		"year": 2005,
+		"band": {
+			"name": "Volbeat"
+		},
+		"genre": {
+			"name": "Hard rock"
+		},
+		"image": "46-volbeat-the-strength-the-sound-the-songs.jpg",
+		"tracklist": [
+			"Caroline Leaving",
+			"Another Day, Another Way",
+			"Something Else or...",
+			"Rebel Monster",
+			"Pool of Booze, Booze, Booza",
+			"Always, Wu",
+			"Say Your Number",
+			"Soulweeper",
+			"Fire Song",
+			"Danny & Lucy (11 pm)",
+			"Caroline #1",
+			"Alienized",
+			"I Only Wanna Be With You",
+			"Everything's Still Fine",
+			"Healing Subconsciously"
+		]
+	},
+	{
+		"id": 47,
+		"title": "Rock the Rebel / Metal the Devil",
+		"year": 2007,
+		"band": {
+			"name": "Volbeat"
+		},
+		"genre": {
+			"name": "Hard rock"
+		},
+		"image": "47-volbeat-rock-the-rebel-metal-the-devil.jpg",
+		"tracklist": [
+			"The Human Instrument",
+			"Mr. & Mrs. Ness",
+			"The Garden's Tale",
+			"Devil or the Blue Cat's Song",
+			"Sad Man's Tongue",
+			"River Queen",
+			"Radio Girl",
+			"A Moment Forever",
+			"Soulweeper #2",
+			"You or Them",
+			"Boa (JDM)"
+		]
+	},
+	{
+		"id": 48,
+		"title": "Guitar Gangsters & Cadillac Blood",
+		"year": 2008,
+		"band": {
+			"name": "Volbeat"
+		},
+		"genre": {
+			"name": "Hard rock"
+		},
+		"image": "48-volbeat-guitar-gangsters-cadillac-blood.jpg",
+		"tracklist": [
+			"Intro (End of the Road)",
+			"Guitar Gangsters & Cadillac Blood",
+			"Back to Prom",
+			"Mary Ann's Place",
+			"Hallelujah Goat",
+			"Maybellene I Hofteholder",
+			"We",
+			"Still Counting",
+			"Light a Way",
+			"Wild Rover of Hell",
+			"I'm So Lonesome I Could Cry",
+			"A Broken Man and the Dawn",
+			"Find That Soul",
+			"Making Believe"
+		]
+	},
+	{
+		"id": 49,
+		"title": "Beyond Hell / Above Heaven",
+		"year": 2010,
+		"band": {
+			"name": "Volbeat"
+		},
+		"genre": {
+			"name": "Hard rock"
+		},
+		"image": "49-volbeat-beyond-hell-above-heaven.jpg",
+		"tracklist": [
+			"The Mirror and the Ripper",
+			"Heaven Nor Hell",
+			"Who They Are",
+			"Fallen",
+			"A Better Believer",
+			"7 Shots",
+			"A New Day",
+			"16 Dollars",
+			"A Warrior's Call",
+			"Magic Zone",
+			"Evelyn",
+			"Being 1",
+			"Thanks",
+			"Angelfuck",
+			"Still Counting"
+		]
+	},
+	{
+		"id": 50,
+		"title": "Outlaw Gentlemen & Shady Ladies",
+		"year": 2013,
+		"band": {
+			"name": "Volbeat"
+		},
+		"genre": {
+			"name": "Hard rock"
+		},
+		"image": "50-volbeat-outlaw-gentlemen-shady-ladies.jpg",
+		"tracklist": [
+			"Let's Shake Some Dust",
+			"Pearl Hart",
+			"The Nameless One",
+			"Dead But Rising",
+			"Cape of Our Hero",
+			"Room 24",
+			"The Hangman's Body Count",
+			"My Body",
+			"Lola Montez",
+			"Black Bart",
+			"Lonesome Rider",
+			"The Sinner Is You",
+			"Doc Holliday",
+			"Our Loved Ones"
+		]
+	},
+	{
+		"id": 51,
+		"title": "Red Album",
+		"year": 2007,
+		"band": {
+			"name": "Baroness"
+		},
+		"genre": {
+			"name": "Sludge metal"
+		},
+		"image": "51-baroness-red-album.jpg",
+		"tracklist": [
+			"Rays on Pinion",
+			"The Birthing",
+			"Isak",
+			"Wailing Wintry Wind",
+			"Cockroach en Fleur",
+			"Wanderlust",
+			"Aleph",
+			"Teeth of a Cogwheel",
+			"O'Appalachia",
+			"Grad",
+			"Untitled"
+		]
+	},
+	{
+		"id": 52,
+		"title": "Blue Record",
+		"year": 2009,
+		"band": {
+			"name": "Baroness"
+		},
+		"genre": {
+			"name": "Sludge metal"
+		},
+		"image": "52-baroness-blue-record.jpg",
+		"tracklist": [
+			"Bullhead's Psalm",
+			"The Sweetest Curse",
+			"Jake Leg",
+			"Steel That Sleeps the Eye",
+			"Swollen and Halo",
+			"Ogeechee Hymnal",
+			"A Horse Called Golgotha",
+			"O'er Hell and Hide",
+			"War, Wisdom and Rhyme",
+			"Blackpowder Orchard",
+			"The Gnashing",
+			"Bullhead's Lament"
+		]
+	},
+	{
+		"id": 53,
+		"title": "Yellow & Green",
+		"year": 2010,
+		"band": {
+			"name": "Baroness"
+		},
+		"genre": {
+			"name": "Stoner rock"
+		},
+		"image": "53-baroness-yellow-green.jpg",
+		"tracklist": [
+			"Yellow Theme",
+			"Take My Bones Away",
+			"March to the Sea",
+			"Little Things",
+			"Twinkler",
+			"Cocainium",
+			"Back Where I Belong",
+			"Sea Lungs",
+			"Eula",
+			"Green Theme",
+			"Board Up the House",
+			"Mtns. (The Crown & Anchor)",
+			"Foolsong",
+			"Collapse",
+			"Psalms Alive",
+			"Stretchmarker",
+			"The Line Between",
+			"If I Forget Thee, Lowcountry"
+		]
+	},
+	{
+		"id": 54,
+		"title": "Killer Be Killed",
+		"year": 2014,
+		"band": {
+			"name": "Killer Be Killed"
+		},
+		"genre": {
+			"name": "Metalcore"
+		},
+		"image": "54-killer-be-killed-killer-be-killed.jpg",
+		"tracklist": [
+			"Wings of Feather and Wax",
+			"Face Down",
+			"Melting of My Marrow",
+			"Snakes of Jehova",
+			"Curb Crusher",
+			"Save The Robots",
+			"Fire To Your Flag",
+			"I.E.D.",
+			"Dust Into Darkness",
+			"Twelve Labors",
+			"Forbidden Fire",
+			"Ghosts of Chernobyl"
+		]
+	}
+]
