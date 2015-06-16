@@ -1,1 +1,12 @@
 <h3>Bands</h3>
+<table class="table table-striped">
+    <tr ng-repeat="band in bands">
+        <td>{{::band.name}}</td>
+        <td>
+            <ul>
+                <li ng-repeat="member in band.members">{{::member.name}}</li>
+            </ul>
+        </td>
+        <td>{{::band.origin}}</td>
+    </tr>
+</table>

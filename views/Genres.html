@@ -1,1 +1,13 @@
 <h3>Genres</h3>
+<table class="table table-striped">
+    <tr ng-repeat="genre in genres">
+        <td>{{genre.name}}</td>
+        <td>
+            <ul>
+                <li ng-repeat="album in genre.albums">
+                    {{::album.title}} <small class="text-muted">by {{album.band.name}}</small>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
