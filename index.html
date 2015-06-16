@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en" ng-app="jeviteca">
+    <html ng-app="jeviteca" lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Jeviteca - David de Tena</title>
@@ -10,6 +10,10 @@
         <script src="vendor/angular-route.min.js"></script>
         <script src="vendor/angular-route-segment.min.js"></script>
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/NavigationCtrl.js"></script>
+        <script src="scripts/controllers/BandsCtrl.js"></script>
+        <script src="scripts/controllers/AlbumsCtrl.js"></script>
+        <script src="scripts/controllers/GenresCtrl.js"></script>
     </head>
     <body>
         <div class="container">
@@ -17,18 +21,25 @@
                 <h1>Jeviteca <small>by David de Tena</small></h1>
                 <h3>Your library with the best heavy metal bands ever</h3>
             </header>
-            <nav>
+            <!-- NavigationCtrl is responsible for the navigation -->
+            <nav ng-controller="NavigationCtrl">
                 <ul class="nav nav-tabs">
-                    <li role="presentation"><a>Bands</a></li>
-                    <li role="presentation"><a>Albums</a></li>
-                    <li role="presentation"><a>Genres</a></li>
+                    <li role="presentation" ng-class="{'active': pathIsBands()}">
+                        <a href="#/bands">Bands</a>
+                    </li>
+                    <li role="presentation" ng-class="{'active': pathIsAlbums()}">
+                        <a href="#/albums">Albums</a>
+                    </li>
+                    <li role="presentation" ng-class="{'active': pathIsGenres()}">
+                        <a href="#/genres">Genres</a>
+                    </li>
                 </ul>
             </nav>
             <section app-view-segment="0"></section>
         </div>
         <script>
             // Automatic bootstraping
-            angular.module("jeviteca",[]);
+            //angular.module("jeviteca",[]);
         </script>
     </body>
 </html>
