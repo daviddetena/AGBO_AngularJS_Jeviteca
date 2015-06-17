@@ -499,6 +499,9 @@
 		"id": 20,
 		"title": "Ashes of the Wake",
 		"year": 2004,
+		"band": {
+		  "name": "Lamb of God"
+		},
 		"genre": {
 			"name": "Groove metal"
 		},
