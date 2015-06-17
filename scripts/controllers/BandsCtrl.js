@@ -2,24 +2,24 @@
  * Created by daviddetena on 16/06/15.
  *
  * Define the BandsCtrl
+ * Injects the service which loads the "API" url
  */
 angular
     .module("jeviteca")
-    .controller("BandsCtrl",["$scope","$http",function($scope,$http){
-        // Get data from bands.json
-        var url = "assets/data/bands.json"
+    .controller("BandsCtrl",["$scope","$http","LoadDataService",function($scope,$http,LoadDataService){
 
-        $http
-            .get(url)
+        // Call the service with the specific path for albums. The service returns only the "get"
+        // part of the $http promise, so we need the .then feature
+        LoadDataService
+            .getData("bands.json")
             .then(
-
                 function(data){
                     // Success
                     $scope.bands = data.data;
                 },
                 function(){
                     // Error
-                    alert("Error! Couldn't retrieve bands' data");
+                    alert("Error! Couldn't retrieve genres' data");
                 }
             );
     }]);

@@ -1,16 +1,17 @@
 /**
  * Created by daviddetena on 16/06/15.
  *
- * Define the GenresCtrl
+ * Defines the GenresCtrl.
+ * Injects the service which loads the "API" url
  */
 angular
     .module("jeviteca")
-    .controller("GenresCtrl",["$scope","$http",function($scope,$http){
-        // Get data from genres.json
-        var url = "assets/data/genres.json"
+    .controller("GenresCtrl",["$scope","$http","LoadDataService",function($scope,$http,LoadDataService){
 
-        $http
-            .get(url)
+        // Call the service with the specific path for genres. The service returns only the "get"
+        // part of the $http promise, so we need the .then feature
+        LoadDataService
+            .getData("genres.json")
             .then(
                 function(data){
                     // Success
