@@ -1,12 +1,12 @@
 <h3>Bands</h3>
 <table class="table table-striped">
     <tr ng-repeat="band in bands | orderBy: 'name' ">
-        <td>{{::band.name}}</td>
-        <td>
+        <td style="width:20%">{{::band.name}}</td>
+        <td style="width:40%">
             <ul>
-                <li ng-repeat="member in band.members">{{::member.name}}</li>
+                <li ng-repeat="member in band.members">{{::member.name}}, <small class="text-muted">{{::member.instruments | bandMemberInstrumentService}}</small></li>
             </ul>
         </td>
-        <td>{{::band.origin}}</td>
+        <td style="width:40%">{{::band.origin | bandFormedService}}</td>
     </tr>
 </table>

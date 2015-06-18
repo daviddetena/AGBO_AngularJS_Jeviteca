@@ -2,19 +2,21 @@
 <table class="table table-striped">
     <tr ng-repeat="album in albums | orderBy:'band.name'">
         <td>
-            <img class="img-circle" width="100" height="100" src="assets/img/{{::album.image}}" alt="{{::album.title}}" />
+            <img class="img-circle" width="70" height="70" src="assets/img/{{::album.image}}" alt="{{::album.title}}" />
         </td>
         <td>
-            {{::album.title}}
+            {{::album.title | albumBandService:album.band.name}}
         </td>
         <td>
             {{::album.genre.name}}
         </td>
+        <!--
         <td>
             {{::album.band.name}}
         </td>
+        -->
         <td>
-            {{::album.year}}
+            {{::album.year | albumReleasedService}}
         </td>
         <td>
             Vote

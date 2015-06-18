@@ -6,7 +6,7 @@
  */
 angular
     .module("jeviteca")
-    .controller("GenresCtrl",["$scope","$http","LoadDataService",function($scope,$http,LoadDataService){
+    .controller("GenresCtrl",["$scope","LoadDataService",function($scope,LoadDataService){
 
         // Call the service with the specific path for genres. The service returns only the "get"
         // part of the $http promise, so we need the .then feature
