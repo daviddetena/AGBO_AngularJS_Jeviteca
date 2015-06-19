@@ -6,7 +6,7 @@
  */
 angular
     .module("jeviteca")
-    .filter("albumBandService",function(){
+    .filter("albumBandFilter",function(){
         return function(album, band){
             return album + " by " + band;
         }

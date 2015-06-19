@@ -6,7 +6,7 @@
  */
 angular
     .module("jeviteca")
-    .filter("bandMemberInstrumentService",function(){
+    .filter("bandMemberInstrumentFilter",function(){
         return function(instruments){
             return "playing " + instruments.join(", ");
         }

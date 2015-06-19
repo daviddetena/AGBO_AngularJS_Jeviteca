@@ -6,7 +6,7 @@
  */
 angular
     .module("jeviteca")
-    .filter("bandFormedService",function(){
+    .filter("bandFormedFilter",function(){
        return function(location){
            return "Formed in " + location;
        }

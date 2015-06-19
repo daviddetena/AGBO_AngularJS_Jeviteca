@@ -4,9 +4,9 @@
         <td style="width:20%">{{::band.name}}</td>
         <td style="width:40%">
             <ul>
-                <li ng-repeat="member in band.members">{{::member.name}}, <small class="text-muted">{{::member.instruments | bandMemberInstrumentService}}</small></li>
+                <li ng-repeat="member in band.members">{{::member.name}}, <small class="text-muted">{{::member.instruments | bandMemberInstrumentFilter}}</small></li>
             </ul>
         </td>
-        <td style="width:40%">{{::band.origin | bandFormedService}}</td>
+        <td style="width:40%">{{::band.origin | bandFormedFilter}}</td>
     </tr>
 </table>

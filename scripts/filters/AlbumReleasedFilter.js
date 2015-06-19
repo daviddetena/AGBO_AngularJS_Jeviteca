@@ -6,7 +6,7 @@
  */
 angular
     .module("jeviteca")
-    .filter("albumReleasedService",function(){
+    .filter("albumReleasedFilter",function(){
         return function(year){
             return "Released in " + year;
         }
