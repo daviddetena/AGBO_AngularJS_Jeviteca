@@ -6,7 +6,7 @@ angular
     .directive("favoriteBands",function(){
         return {
             restrict: "AE",
-            templateUrl: "views/FavoriteBand.html",
+            templateUrl: "views/Favorites.html",
             replace: true,
             scope:{
                 bandName: "="

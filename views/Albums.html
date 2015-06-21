@@ -2,7 +2,7 @@
 <table class="table table-striped">
     <tbody>
         <!-- Use directive "albumRow", that includes a <tr>, in an ng-repeat -->
-        <tr album-row ng-repeat="album in albums | orderBy:'band.name'" album="album">
+        <tr album-row ng-repeat="album in albums | orderBy:'title'" album="album">
         </tr>
     </tbody>
 </table>

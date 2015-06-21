@@ -1,10 +1,16 @@
 <tr>
-    <td>{{genre.name}}</td>
-    <td>
+    <td style="width:25%">
+        {{genre.name}}
+    </td>
+    <td style="width:70%">
         <ul>
             <li ng-repeat="album in genre.albums | orderBy:'title'">
                 {{::album.title}} <small class="text-muted">by {{::album.band.name}}</small>
             </li>
         </ul>
+    </td>
+    <td style="width:5%">
+        <span favorites id="genre.name" kind="genre">
+        </span>
     </td>
 </tr>

@@ -1,11 +1,11 @@
 <tr>
-    <td>
+    <td style="width:15%">
         <img class="img-circle" width="70" height="70" src="assets/img/{{::album.image}}" alt="{{::album.title}}" />
     </td>
-    <td>
+    <td style="width:30%">
         {{::album.title | albumBandFilter:album.band.name}}
     </td>
-    <td>
+    <td style="width:20%">
         {{::album.genre.name}}
     </td>
     <!--
@@ -13,10 +13,14 @@
         {{::album.band.name}}
     </td>
     -->
-    <td>
+    <td style="width:15%">
         {{::album.year | albumReleasedFilter}}
     </td>
-    <td>
+    <td style="width:10%">
         Vote
+    </td>
+    <td style="width:5%">
+        <span favorites id="album.title" kind="album">
+        </span>
     </td>
 </tr>
