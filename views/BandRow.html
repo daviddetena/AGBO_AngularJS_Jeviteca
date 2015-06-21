@@ -1,9 +1,13 @@
 <tr>
     <td style="width:20%">{{::band.name}}</td>
-    <td style="width:40%">
+    <td style="width:35%">
         <ul>
             <li ng-repeat="member in band.members | orderBy:'name'">{{::member.name}}, <small class="text-muted">{{::member.instruments | bandMemberInstrumentFilter}}</small></li>
         </ul>
     </td>
     <td style="width:40%">{{::band.origin | bandFormedFilter}}</td>
+    <td style="width:5%">
+        <span favorite-bands band-name="band.name">
+        </span>
+    </td>
 </tr>
