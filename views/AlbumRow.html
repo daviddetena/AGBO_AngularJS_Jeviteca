@@ -1,0 +1,22 @@
+<tr>
+    <td>
+        <img class="img-circle" width="70" height="70" src="assets/img/{{::album.image}}" alt="{{::album.title}}" />
+    </td>
+    <td>
+        {{::album.title | albumBandFilter:album.band.name}}
+    </td>
+    <td>
+        {{::album.genre.name}}
+    </td>
+    <!--
+    <td>
+        {{::album.band.name}}
+    </td>
+    -->
+    <td>
+        {{::album.year | albumReleasedFilter}}
+    </td>
+    <td>
+        Vote
+    </td>
+</tr>

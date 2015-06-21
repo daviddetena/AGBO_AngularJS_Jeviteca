@@ -29,7 +29,11 @@ angular
                 Bands: ["LoadDataService",function(LoadDataService){
                     return LoadDataService.getData("bands.json");
                 }]
-            }
+            }/*,
+            resolveFailed:{
+                controller:"",
+                templateUrl:""
+            }*/
         });
 
         $routeSegmentProvider.segment("albums",{
@@ -41,7 +45,11 @@ angular
                 Albums: ["LoadDataService",function(LoadDataService){
                     return LoadDataService.getData("albums.json");
                 }]
-            }
+            }/*,
+             resolveFailed:{
+                controller:"",
+                templateUrl:""
+             }*/
         });
 
         $routeSegmentProvider.segment("genres",{
@@ -53,7 +61,11 @@ angular
                 Genres:["LoadDataService",function(LoadDataService){
                     return LoadDataService.getData("genres.json");
                 }]
-            }
+            }/*,
+             resolveFailed:{
+                controller:"",
+                templateUrl:""
+             }*/
         });
 
 

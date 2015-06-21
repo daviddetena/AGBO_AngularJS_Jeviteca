@@ -1,25 +1,8 @@
 <h3>Albums</h3>
 <table class="table table-striped">
-    <tr ng-repeat="album in albums | orderBy:'band.name'">
-        <td>
-            <img class="img-circle" width="70" height="70" src="assets/img/{{::album.image}}" alt="{{::album.title}}" />
-        </td>
-        <td>
-            {{::album.title | albumBandFilter:album.band.name}}
-        </td>
-        <td>
-            {{::album.genre.name}}
-        </td>
-        <!--
-        <td>
-            {{::album.band.name}}
-        </td>
-        -->
-        <td>
-            {{::album.year | albumReleasedFilter}}
-        </td>
-        <td>
-            Vote
-        </td>
-    </tr>
+    <tbody>
+        <!-- Use directive "albumRow", that includes a <tr>, in an ng-repeat -->
+        <tr album-row ng-repeat="album in albums | orderBy:'band.name'" album="album">
+        </tr>
+    </tbody>
 </table>
