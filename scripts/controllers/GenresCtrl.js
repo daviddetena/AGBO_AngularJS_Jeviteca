@@ -6,20 +6,11 @@
  */
 angular
     .module("jeviteca")
-    .controller("GenresCtrl",["$scope","LoadDataService",function($scope,LoadDataService){
+    .controller("GenresCtrl",["$scope","Genres",function($scope,Genres){
 
-        // Call the service with the specific path for genres. The service returns only the "get"
-        // part of the $http promise, so we need the .then feature
-        LoadDataService
-            .getData("genres.json")
-            .then(
-                function(data){
-                    // Success
-                    $scope.genres = data.data;
-                },
-                function(){
-                    // Error
-                    alert("Error! Couldn't retrieve genres' data");
-                }
-            );
+        // Genres is the collection of genres that is resolved in the app's config file
+        // app.js. Instead of asking the API to retrieve the data from the API, the
+        // controller is already given the collection of genres through the proper
+        // promise resolved in the routeSegmentProvider
+        $scope.genres = Genres.data;
     }]);

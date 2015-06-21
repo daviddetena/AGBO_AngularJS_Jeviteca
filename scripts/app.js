@@ -20,17 +20,40 @@ angular
         // Provide a controller and a view for each page
         $routeSegmentProvider.segment("bands",{
             controller: "BandsCtrl",
-            templateUrl: "views/Bands.html"
+            templateUrl: "views/Bands.html",
+            resolve: {
+                // All this code is resolved and injected as a dependency before
+                // the view is called. In this case, we want the band collection to
+                // be retrieved and pre-loaded before the view is displayed.
+                // All the resolves return promises
+                Bands: ["LoadDataService",function(LoadDataService){
+                    return LoadDataService.getData("bands.json");
+                }]
+            }
         });
 
         $routeSegmentProvider.segment("albums",{
             controller: "AlbumsCtrl",
-            templateUrl: "views/Albums.html"
+            templateUrl: "views/Albums.html",
+            resolve:{
+                // Resolve this promise through the API service to retrieve the data
+                // before navigating to the view. Navigate only when data retrieved.
+                Albums: ["LoadDataService",function(LoadDataService){
+                    return LoadDataService.getData("albums.json");
+                }]
+            }
         });
 
         $routeSegmentProvider.segment("genres",{
             controller: "GenresCtrl",
-            templateUrl: "views/Genres.html"
+            templateUrl: "views/Genres.html",
+            resolve:{
+                // Resolve this promise through the API service to retrieve the data
+                // before navigating to the view. Navigate only when data retrieved.
+                Genres:["LoadDataService",function(LoadDataService){
+                    return LoadDataService.getData("genres.json");
+                }]
+            }
         });
 
 

@@ -6,20 +6,11 @@
  */
 angular
     .module("jeviteca")
-    .controller("AlbumsCtrl",["$scope","LoadDataService",function($scope,LoadDataService){
+    .controller("AlbumsCtrl",["$scope","Albums",function($scope,Albums){
 
-        // Call the service with the specific path for albums. The service returns only the "get"
-        // part of the $http promise, so we need the .then feature
-        LoadDataService
-            .getData("albums.json")
-            .then(
-                function(data){
-                    // Success
-                    $scope.albums = data.data;
-                },
-                function(){
-                    // Error
-                    alert("Error! Couldn't retrieve genres' data");
-                }
-            );
+        // Albums is the collection of albums that is resolved in the app's config file
+        // app.js. Instead of asking the API to retrieve the data from the API, the
+        // controller is already given the collection of albums through the proper
+        // promise resolved in the routeSegmentProvider
+        $scope.albums = Albums.data;
     }]);
