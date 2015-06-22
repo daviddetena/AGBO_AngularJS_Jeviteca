@@ -2,7 +2,7 @@
  * Created by daviddetena on 16/06/15.
  *
  * Define the BandsCtrl
- * Injects the service which loads the "API" url
+ * The collection of bands is given by the ApiService resolved in config
  */
 angular
     .module("jeviteca")

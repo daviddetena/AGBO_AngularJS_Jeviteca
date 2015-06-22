@@ -7,5 +7,7 @@
 angular
     .module("jeviteca")
     .value("Settings",{
-        "apiUrl":"assets/data/"
+        "apiUrl":"assets/data/",
+        "wikiSearch":"https://es.wikipedia.org/wiki/Special:Search?search=",
+        "youtubeSearch":"https://www.youtube.com/results?search_query="
     });

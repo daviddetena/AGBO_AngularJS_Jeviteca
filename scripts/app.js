@@ -11,10 +11,13 @@ angular
     .module("jeviteca")
     .config(["$routeSegmentProvider","$routeProvider",function($routeSegmentProvider,$routeProvider){
 
-        // Configure routing
+        // Configure main routing
         $routeSegmentProvider.when("/bands","bands");
         $routeSegmentProvider.when("/albums","albums");
         $routeSegmentProvider.when("/genres","genres");
+
+        // Configure detail routing (dynamic with :)
+        $routeSegmentProvider.when("/bands/:name/details","detail_band");
 
 
         // Provide a controller and a view for each page
@@ -26,8 +29,8 @@ angular
                 // the view is called. In this case, we want the band collection to
                 // be retrieved and pre-loaded before the view is displayed.
                 // All the resolves return promises
-                Bands: ["LoadDataService",function(LoadDataService){
-                    return LoadDataService.getData("bands.json");
+                Bands: ["ApiService",function(ApiService){
+                    return ApiService.getData("bands.json");
                 }]
             }/*,
             resolveFailed:{
@@ -42,8 +45,8 @@ angular
             resolve:{
                 // Resolve this promise through the API service to retrieve the data
                 // before navigating to the view. Navigate only when data retrieved.
-                Albums: ["LoadDataService",function(LoadDataService){
-                    return LoadDataService.getData("albums.json");
+                Albums: ["ApiService",function(ApiService){
+                    return ApiService.getData("albums.json");
                 }]
             }/*,
              resolveFailed:{
@@ -58,8 +61,8 @@ angular
             resolve:{
                 // Resolve this promise through the API service to retrieve the data
                 // before navigating to the view. Navigate only when data retrieved.
-                Genres:["LoadDataService",function(LoadDataService){
-                    return LoadDataService.getData("genres.json");
+                Genres:["ApiService",function(ApiService){
+                    return ApiService.getData("genres.json");
                 }]
             }/*,
              resolveFailed:{
@@ -67,6 +70,21 @@ angular
                 templateUrl:""
              }*/
         });
+
+
+
+        // Band detail view: get band data by its name
+        $routeSegmentProvider.segment("detail_band",{
+            controller: "bandDetail",
+            templateUrl: "views/BandDetail.html",
+            resolve:{
+                Band:["ApiService","$routeParams",function(ApiService,$routeParams){
+                    // $routeParams contains params in the url. We need the param 'name'
+                    return ApiService.getBand("bands.json", $routeParams.name);
+                }]
+            }
+        });
+
 
 
         // In case a nav link is not provided, go to /bands
