@@ -18,6 +18,7 @@ angular
 
         // Configure detail routing (dynamic with :)
         $routeSegmentProvider.when("/bands/:name/details","detail_band");
+        $routeSegmentProvider.when("/albums/:id/details","detail_album");
 
 
         // Provide a controller and a view for each page
@@ -84,6 +85,22 @@ angular
                 }]
             }
         });
+
+        // Album detail view: get album data by its id
+        $routeSegmentProvider.segment("detail_album",{
+            controller: "albumDetail",
+            templateUrl: "views/AlbumDetail.html",
+            resolve:{
+                Album:["ApiService","$routeParams",function(ApiService,$routeParams){
+                    // $routeParams contains params in the url. We need the param 'name'
+                    return ApiService.getAlbum("albums.json", $routeParams.id);
+                }]
+            }
+        });
+
+
+
+
 
 
 

@@ -1,9 +1,9 @@
 <tr>
     <td style="width:15%">
-        <img class="img-circle" width="70" height="70" src="assets/img/{{::album.image}}" alt="{{::album.title}}" />
+        <img class="img-circle" width="70" height="70" ng-src="assets/img/{{::album.image}}" ng-alt="{{::album.title}}" />
     </td>
     <td style="width:30%">
-        {{::album.title | albumBandFilter:album.band.name}}
+        <a ng-href="#/albums/{{::album.id}}/details" title="Click to detail view">{{::album.title | albumBandFilter:album.band.name}}</a>
     </td>
     <td style="width:20%">
         {{::album.genre.name}}

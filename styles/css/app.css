@@ -1,3 +1,26 @@
+/******************************
+    General-purpose classes
+******************************/
+
+.marg-top-1x{
+    margin-top: 1em;
+}
+
+.marg-bottom-1x{
+    margin-bottom: 1em;
+}
+
+.marg-top-2x{
+    margin-top: 2em;
+}
+
+.marg-bottom-2x{
+    margin-bottom: 2em;
+}
+
+/******************************
+    Callouts
+******************************/
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -62,4 +85,19 @@
 
 .bs-callout-success h4 {
     color: #27ae60;
+}
+
+
+/******************************
+    Album details
+******************************/
+.album-detail img{
+    width: 100% !important;
+    height: 100% !important;
+    border: none;
+}
+
+.album-detail img:hover{
+    opacity: 0.8;
+    -moz-opacity: 0.8;
 }

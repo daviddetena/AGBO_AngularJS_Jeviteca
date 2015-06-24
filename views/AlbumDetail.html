@@ -1,0 +1,29 @@
+<article class="album-detail">
+    <header class="marg-top-2x">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <img ng-src="assets/img/{{::album.image}}" ng-alt="{{::album.title}}">
+            </div>
+            <div class="col-xs-6 col-sm-9 col-md-10 col-lg-10">
+                <div class="pull-right marg-bottom-1x">
+                    <a href="#"><i class="glyphicon glyphicon-chevron-left"></i> Back</a>
+                </div>
+                <h3>{{ ::album.title}}</h3>
+                <h4 class="text-info">{{::album.band.name}}</h4>
+                <p class="text-muted">{{::album.year | albumReleasedFilter}}</p>
+                <p favorites id="album.title" kind="album"></p>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="bs-callout bs-callout-danger">
+            <h4>Tracklist</h4>
+            <table class="table table-striped" style="margin-top:20px">
+                <tr ng-repeat="track in album.tracklist">
+                    <td style="width:95%">{{::track}}</td>
+                    <td style="width:5%"><a class="text-danger" ng-href="{{::youtubeSearch}}{{::album.title}}-{{::track}}" target="_blank" title="Watch on Youtube"><i class="glyphicon glyphicon-play"></i></a></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</article>

@@ -24,12 +24,10 @@ angular.module("jeviteca").service("ApiService",["$http","Settings","$q","$filte
         // Promise to get api
         $http.get(Settings.apiUrl + path).then(
             function(data){
-                //debugger;
 
                 // Success, got data. Filter data to match the band required
                 var band = $filter("filter")(data.data, {"name": bandName})[0];
 
-                //debugger;
                 // Resolve promise with data filtered
                 deferred.resolve(band);
             },
@@ -42,4 +40,31 @@ angular.module("jeviteca").service("ApiService",["$http","Settings","$q","$filte
         // Return promise (resolved or rejected)
         return deferred.promise;
     };
+
+
+    // Create a deferred item to filter data by the album id
+    this.getAlbum = function(path, albumId){
+        var deferred = $q.defer();
+
+        // Promise to get api
+        $http.get(Settings.apiUrl + path).then(
+            function(data){
+
+                // Success, got data. Filter data to match the band required
+                var album = $filter("filter")(data.data, {"id": albumId})[0];
+
+                // Resolve promise with data filtered
+                deferred.resolve(album);
+            },
+            function(){
+                // Error, couldn't get data => Reject promise
+                deferred.reject("Error! Couldn't get band data")
+            }
+        );
+
+        // Return promise (resolved or rejected)
+        return deferred.promise;
+    };
+
+
 }]);

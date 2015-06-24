@@ -28,19 +28,21 @@
     <section>
         <div class="bs-callout bs-callout-danger">
             <h4>Albums</h4>
+
             <table class="table table-striped" style="margin-top:20px">
                 <tr ng-repeat="album in band.albums | orderBy:'title'">
-                    <!--
-                    <td style="width:20%">
-                        <img class="img-circle" width="70" height="70" src="assets/img/{{::album.image}}" alt="{{::album.title}}" />
-                    </td>
-                    -->
                     <td style="width:70%"><a ng-href="#/albums/{{::album.title}}/details" title="Click to detail view">{{::album.title}}</a></td>
                     <td style="width:20%">{{::album.genre.name}}</td>
                     <td style="width:5%">{{::album.year}}</td>
                     <td style="width:5%"><a class="text-danger" ng-href="{{::youtubeSearch}}{{::album.title}}" target="_blank" title="Watch on Youtube"><i class="glyphicon glyphicon-play"></i></a></td>
                 </tr>
             </table>
+
+            <!-- Custom directive for album tile
+            <ul>
+                <li album-tile ng-repeat="album in bands.albums | orderBy:'title'" album="album"></li>
+            </ul>
+            -->
         </div>
     </section>
 </article>
