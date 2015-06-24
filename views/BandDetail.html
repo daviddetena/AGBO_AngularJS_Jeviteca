@@ -1,24 +1,22 @@
-<article>
-    <header>
+<article class="band-detail">
+    <header class="marg-top-2x">
         <div class="row">
-            <div class="col-lg-12">
-                <h3>{{ ::band.name}}</h3>
-                <div>
-                    <span class="pull-left" favorites id="band.name" kind="band"></span>
-                    <a class="pull-right" href="#"><i class="glyphicon glyphicon-chevron-left"></i> Back</a>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <img ng-src="assets/img/{{::band.image}}" ng-alt="{{::band.name}}">
+            </div>
+            <div class="col-xs-6 col-sm-9 col-md-10 col-lg-10">
+                <div class="pull-right marg-bottom-1x">
+                    <a href="#"><i class="glyphicon glyphicon-chevron-left"></i> Back</a>
                 </div>
+                <h3>{{ ::band.name}}</h3>
+                <p style="margin-top:20px"><i class="glyphicon glyphicon-home"></i> {{:: band.origin}}</p>
+                <p><a ng-href="{{::wikiSearch}}{{::band.name}}" target="_blank"><i class="glyphicon glyphicon-link"></i> Link to Wikipedia</a></p>
+                <p favorites id="band.name" kind="band"></p>
             </div>
         </div>
     </header>
     <section>
         <div class="bs-callout bs-callout-primary">
-            <h4>Biography</h4>
-            <p style="margin-top:20px"><i class="glyphicon glyphicon-home"></i> {{:: band.origin}}</p>
-            <p><a ng-href="{{::wikiSearch}}{{::band.name}}" target="_blank"><i class="glyphicon glyphicon-link"></i> Link to Wikipedia</a></p>
-        </div>
-    </section>
-    <section>
-        <div class="bs-callout bs-callout-warning">
             <h4>Members</h4>
             <ul class="list-unstyled" style="margin-top:20px">
                 <li ng-repeat="member in band.members | orderBy:'name'"><a ng-href="{{::wikiSearch}}{{::member.name}}" target="_blank" title="Search in Wikipedia">{{::member.name}}</a><small class="text-muted">, {{::member.instruments | bandMemberInstrumentFilter}}</small></li>
@@ -31,7 +29,7 @@
 
             <table class="table table-striped" style="margin-top:20px">
                 <tr ng-repeat="album in band.albums | orderBy:'title'">
-                    <td style="width:70%"><a ng-href="#/albums/{{::album.title}}/details" title="Click to detail view">{{::album.title}}</a></td>
+                    <td style="width:70%"><a ng-href="#/albums/{{::album.id}}/details" title="Click to detail view">{{::album.title}}</a></td>
                     <td style="width:20%">{{::album.genre.name}}</td>
                     <td style="width:5%">{{::album.year}}</td>
                     <td style="width:5%"><a class="text-danger" ng-href="{{::youtubeSearch}}{{::album.title}}" target="_blank" title="Watch on Youtube"><i class="glyphicon glyphicon-play"></i></a></td>

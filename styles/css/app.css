@@ -91,13 +91,15 @@
 /******************************
     Album details
 ******************************/
-.album-detail img{
+.band-detail img, .album-detail img{
     width: 100% !important;
     height: 100% !important;
     border: none;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-.album-detail img:hover{
+.band-detail img:hover, .album-detail img:hover{
     opacity: 0.8;
     -moz-opacity: 0.8;
 }

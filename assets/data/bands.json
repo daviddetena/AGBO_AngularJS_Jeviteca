@@ -2,6 +2,7 @@
 	{
 		"name": "Mastodon",
 		"origin": "Atlanta, Georgia, Estados Unidos",
+		"image": "mastodon.jpg",
 		"members": [
 			{
 				"name": "Troy Sanders",
@@ -85,6 +86,7 @@
 	{
 		"name": "Slipknot",
 		"origin": "Des Moines, Iowa, Estados Unidos",
+		"image":"slipknot.jpg",
 		"members": [
 			{
 				"name": "#0 Sid Wilson",
@@ -176,6 +178,7 @@
 	{
 		"name": "Stone Sour",
 		"origin": "Des Moines, Iowa, Estados Unidos",
+		"image":"stone-sour.jpg",
 		"members": [
 			{
 				"name": "Corey Taylor",
@@ -254,6 +257,7 @@
 	{
 		"name": "Lamb of God",
 		"origin": "Richmond, Virginia, Estados Unidos",
+		"image":"lamb-of-god.jpg",
 		"members": [
 			{
 				"name": "Randy Blythe",
@@ -348,6 +352,7 @@
 	{
 		"name": "Fear Factory",
 		"origin": "Los Angeles, California, Estados Unidos",
+		"image":"fear-factory.jpg",
 		"members": [
 			{
 				"name": "Burton C. Bell",
@@ -444,6 +449,7 @@
 	{
 		"name": "Gojira",
 		"origin": "Bayona, Francia",
+		"image":"gojira.jpg",
 		"members": [
 			{
 				"name": "Joe Duplantier",
@@ -517,6 +523,7 @@
 	{
 		"name": "Septicflesh",
 		"origin": "Atenas, Grecia",
+		"image":"septicflesh.jpg",
 		"members": [
 			{
 				"name": "Sotiris Vayenas",
@@ -622,6 +629,7 @@
 	{
 		"name": "Volbeat",
 		"origin": "Copenhague, Dinamarca",
+		"image":"volbeat.jpg",
 		"members": [
 			{
 				"name": "Michael Poulsen",
@@ -695,6 +703,7 @@
 	{
 		"name": "Baroness",
 		"origin": "Savannah, Georgia, Estados Unidos",
+		"image":"baroness.jpg",
 		"members": [
 			{
 				"name": "John Baizley",
@@ -753,6 +762,7 @@
 	{
 		"name": "Killer Be Killed",
 		"origin": "Phoenix, Arizona, Estados Unidos",
+		"image":"killer-be-killed.jpg",
 		"members": [
 			{
 				"name": "Greg Puciato",

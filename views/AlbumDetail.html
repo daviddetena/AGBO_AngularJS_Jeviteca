@@ -9,7 +9,7 @@
                     <a href="#"><i class="glyphicon glyphicon-chevron-left"></i> Back</a>
                 </div>
                 <h3>{{ ::album.title}}</h3>
-                <h4 class="text-info">{{::album.band.name}}</h4>
+                <h4 class="text-info"><a href="#/bands/{{::album.band.name}}/details" title="Click to detail view">{{::album.band.name}}</a></h4>
                 <p class="text-muted">{{::album.year | albumReleasedFilter}}</p>
                 <p favorites id="album.title" kind="album"></p>
             </div>
