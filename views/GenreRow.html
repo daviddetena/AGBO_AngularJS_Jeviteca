@@ -5,12 +5,12 @@
     <td style="width:70%">
         <ul>
             <li ng-repeat="album in genre.albums | orderBy:'title'">
-                {{::album.title}} <small class="text-muted">by {{::album.band.name}}</small>
+                <a ng-href="#/albums/{{::album.id}}/details">{{::album.title}}</a> <small class="text-muted">by <a ng-href="#/bands/{{::album.band.id}}/details">{{::album.band.name}}</a></small>
             </li>
         </ul>
     </td>
     <td style="width:5%">
-        <span favorites id="genre.name" kind="genre">
+        <span favorites id="genre.id" kind="genre">
         </span>
     </td>
 </tr>

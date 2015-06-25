@@ -89,7 +89,7 @@
 
 
 /******************************
-    Album details
+    Image of bands and albums
 ******************************/
 .band-detail img, .album-detail img{
     width: 100% !important;
@@ -103,3 +103,50 @@
     opacity: 0.8;
     -moz-opacity: 0.8;
 }
+
+
+/******************************
+    Tiles for albums
+******************************/
+.list-album-tiles{
+    list-style: none;
+}
+
+.list-album-tiles li{
+    padding: 0px !important;
+    margin-right: 2em !important;
+    margin-bottom: 2em !important;
+    width: 190px;
+    min-height: 250px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.list-album-tiles li:hover{
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+}
+
+.list-album-tiles li .album-tile-img{
+    padding: 0 !important;
+    margin: 0 !important;
+    width:190px !important;
+    height: 190px !important;
+}
+
+.list-album-tiles li .album-tile-content{
+    padding: 1em !important;
+    margin: 0 !important;
+    background: #f1f1f1;
+    min-height: 60px;
+    height: auto;
+}
+
+.list-album-tiles li .album-tile-content h4{
+    color: #465157;
+    font-weight: 400;
+    font-size: 1.2em !important;
+    text-align: center;
+}
+
+

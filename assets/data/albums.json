@@ -4,6 +4,7 @@
 		"title": "Remission",
 		"year": 2002,
 		"band": {
+			"id": 1,
 			"name": "Mastodon"
 		},
 		"genre": {
@@ -29,6 +30,7 @@
 		"title": "Leviathan",
 		"year": 2004,
 		"band": {
+			"id": 1,
 			"name": "Mastodon"
 		},
 		"genre": {
@@ -53,6 +55,7 @@
 		"title": "Blood Mountain",
 		"year": 2006,
 		"band": {
+			"id": 1,
 			"name": "Mastodon"
 		},
 		"genre": {
@@ -79,6 +82,7 @@
 		"title": "Crack the Skye",
 		"year": 2009,
 		"band": {
+			"id": 1,
 			"name": "Mastodon"
 		},
 		"genre": {
@@ -100,6 +104,7 @@
 		"title": "The Hunter",
 		"year": 2011,
 		"band": {
+			"id": 1,
 			"name": "Mastodon"
 		},
 		"genre": {
@@ -127,6 +132,7 @@
 		"title": "Once More 'Round the Sun",
 		"year": 2014,
 		"band": {
+			"id": 1,
 			"name": "Mastodon"
 		},
 		"genre": {
@@ -152,6 +158,7 @@
 		"title": "Slipknot",
 		"year": 1999,
 		"band": {
+			"id": 2,
 			"name": "Slipknot"
 		},
 		"genre": {
@@ -182,6 +189,7 @@
 		"title": "Iowa",
 		"year": 2001,
 		"band": {
+			"id": 2,
 			"name": "Slipknot"
 		},
 		"genre": {
@@ -210,6 +218,7 @@
 		"title": "Vol. 3: (The Subliminal Verses)",
 		"year": 2004,
 		"band": {
+			"id": 2,
 			"name": "Slipknot"
 		},
 		"genre": {
@@ -238,6 +247,7 @@
 		"title": "All Hope Is Gone",
 		"year": 2008,
 		"band": {
+			"id": 2,
 			"name": "Slipknot"
 		},
 		"genre": {
@@ -264,6 +274,7 @@
 		"title": ".5: The Gray Chapter",
 		"year": 2014,
 		"band": {
+			"id": 2,
 			"name": "Slipknot"
 		},
 		"genre": {
@@ -292,6 +303,7 @@
 		"title": "Stone Sour",
 		"year": 2002,
 		"band": {
+			"id": 3,
 			"name": "Stone Sour"
 		},
 		"genre": {
@@ -319,6 +331,7 @@
 		"title": "Come What(ever) May",
 		"year": 2006,
 		"band": {
+			"id": 3,
 			"name": "Stone Sour"
 		},
 		"genre": {
@@ -345,6 +358,7 @@
 		"title": "Audio Secrecy",
 		"year": 2010,
 		"band": {
+			"id": 3,
 			"name": "Stone Sour"
 		},
 		"genre": {
@@ -373,6 +387,7 @@
 		"title": "House of Gold & Bones Part 1",
 		"year": 2012,
 		"band": {
+			"id": 3,
 			"name": "Stone Sour"
 		},
 		"genre": {
@@ -398,6 +413,7 @@
 		"title": "House of Gold & Bones Part 2",
 		"year": 2013,
 		"band": {
+			"id": 3,
 			"name": "Stone Sour"
 		},
 		"genre": {
@@ -424,6 +440,7 @@
 		"title": "Burn the Priest",
 		"year": 1999,
 		"band": {
+			"id": 4,
 			"name": "Lamb of God"
 		},
 		"genre": {
@@ -452,6 +469,7 @@
 		"title": "New American Gospel",
 		"year": 2000,
 		"band": {
+			"id": 4,
 			"name": "Lamb of God"
 		},
 		"genre": {
@@ -476,6 +494,7 @@
 		"title": "As the Palaces Burn",
 		"year": 2003,
 		"band": {
+			"id": 4,
 			"name": "Lamb of God"
 		},
 		"genre": {
@@ -500,7 +519,8 @@
 		"title": "Ashes of the Wake",
 		"year": 2004,
 		"band": {
-		  "name": "Lamb of God"
+			"id": 4,
+			"name": "Lamb of God"
 		},
 		"genre": {
 			"name": "Groove metal"
@@ -525,6 +545,7 @@
 		"title": "Sacrament",
 		"year": 2006,
 		"band": {
+			"id": 4,
 			"name": "Lamb of God"
 		},
 		"genre": {
@@ -550,6 +571,7 @@
 		"title": "Wrath",
 		"year": 2009,
 		"band": {
+			"id": 4,
 			"name": "Lamb of God"
 		},
 		"genre": {
@@ -575,6 +597,7 @@
 		"title": "Resolution",
 		"year": 2012,
 		"band": {
+			"id": 4,
 			"name": "Lamb of God"
 		},
 		"genre": {
@@ -603,6 +626,7 @@
 		"title": "Soul of a New Machine",
 		"year": 1992,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -634,6 +658,7 @@
 		"title": "Demanufacture",
 		"year": 1995,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -659,6 +684,7 @@
 		"title": "Obsolete",
 		"year": 1998,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -683,6 +709,7 @@
 		"title": "Digimortal",
 		"year": 2001,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -708,6 +735,7 @@
 		"title": "Archetype",
 		"year": 2004,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -735,6 +763,7 @@
 		"title": "Transgression",
 		"year": 2005,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -761,6 +790,7 @@
 		"title": "Mechanize",
 		"year": 2010,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -785,6 +815,7 @@
 		"title": "The Industrialist",
 		"year": 2012,
 		"band": {
+			"id": 5,
 			"name": "Fear Factory"
 		},
 		"genre": {
@@ -809,6 +840,7 @@
 		"title": "Terra Incognita",
 		"year": 2001,
 		"band": {
+			"id": 6,
 			"name": "Gojira"
 		},
 		"genre": {
@@ -837,6 +869,7 @@
 		"title": "The Link",
 		"year": 2003,
 		"band": {
+			"id": 6,
 			"name": "Gojira"
 		},
 		"genre": {
@@ -862,6 +895,7 @@
 		"title": "From Mars to Sirius",
 		"year": 2005,
 		"band": {
+			"id": 6,
 			"name": "Gojira"
 		},
 		"genre": {
@@ -888,6 +922,7 @@
 		"title": "The Way of All Flesh",
 		"year": 2008,
 		"band": {
+			"id": 6,
 			"name": "Gojira"
 		},
 		"genre": {
@@ -914,6 +949,7 @@
 		"title": "L'Enfant Sauvage",
 		"year": 2012,
 		"band": {
+			"id": 6,
 			"name": "Gojira"
 		},
 		"genre": {
@@ -939,6 +975,7 @@
 		"title": "Mystic Places of Dawn",
 		"year": 1994,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -962,6 +999,7 @@
 		"title": "Esoptron",
 		"year": 1995,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -987,6 +1025,7 @@
 		"title": "The Ophidian Wheel",
 		"year": 1997,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -1012,6 +1051,7 @@
 		"title": "A Fallen Temple",
 		"year": 1997,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -1036,6 +1076,7 @@
 		"title": "Revolution DNA",
 		"year": 1999,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -1063,6 +1104,7 @@
 		"title": "Sumerian Daemons",
 		"year": 2002,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -1090,6 +1132,7 @@
 		"title": "Communion",
 		"year": 2008,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -1113,6 +1156,7 @@
 		"title": "The Great Mass",
 		"year": 2011,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -1137,6 +1181,7 @@
 		"title": "Titan",
 		"year": 2014,
 		"band": {
+			"id": 7,
 			"name": "Septicflesh"
 		},
 		"genre": {
@@ -1161,6 +1206,7 @@
 		"title": "The Strength / The Sound / The Songs",
 		"year": 2005,
 		"band": {
+			"id": 8,
 			"name": "Volbeat"
 		},
 		"genre": {
@@ -1190,6 +1236,7 @@
 		"title": "Rock the Rebel / Metal the Devil",
 		"year": 2007,
 		"band": {
+			"id": 8,
 			"name": "Volbeat"
 		},
 		"genre": {
@@ -1215,6 +1262,7 @@
 		"title": "Guitar Gangsters & Cadillac Blood",
 		"year": 2008,
 		"band": {
+			"id": 8,
 			"name": "Volbeat"
 		},
 		"genre": {
@@ -1243,6 +1291,7 @@
 		"title": "Beyond Hell / Above Heaven",
 		"year": 2010,
 		"band": {
+			"id": 8,
 			"name": "Volbeat"
 		},
 		"genre": {
@@ -1272,6 +1321,7 @@
 		"title": "Outlaw Gentlemen & Shady Ladies",
 		"year": 2013,
 		"band": {
+			"id": 8,
 			"name": "Volbeat"
 		},
 		"genre": {
@@ -1300,6 +1350,7 @@
 		"title": "Red Album",
 		"year": 2007,
 		"band": {
+			"id": 9,
 			"name": "Baroness"
 		},
 		"genre": {
@@ -1325,6 +1376,7 @@
 		"title": "Blue Record",
 		"year": 2009,
 		"band": {
+			"id": 9,
 			"name": "Baroness"
 		},
 		"genre": {
@@ -1351,6 +1403,7 @@
 		"title": "Yellow & Green",
 		"year": 2010,
 		"band": {
+			"id": 9,
 			"name": "Baroness"
 		},
 		"genre": {
@@ -1383,6 +1436,7 @@
 		"title": "Killer Be Killed",
 		"year": 2014,
 		"band": {
+			"id": 10,
 			"name": "Killer Be Killed"
 		},
 		"genre": {

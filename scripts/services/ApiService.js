@@ -18,7 +18,7 @@ angular.module("jeviteca").service("ApiService",["$http","Settings","$q","$filte
     };
 
     // Create a deferred item to filter data by the band name
-    this.getBand = function(path, bandName){
+    this.getBand = function(path, bandId){
         var deferred = $q.defer();
 
         // Promise to get api
@@ -26,7 +26,7 @@ angular.module("jeviteca").service("ApiService",["$http","Settings","$q","$filte
             function(data){
 
                 // Success, got data. Filter data to match the band required
-                var band = $filter("filter")(data.data, {"name": bandName})[0];
+                var band = $filter("filter")(data.data, {"id": bandId})[0];
 
                 // Resolve promise with data filtered
                 deferred.resolve(band);

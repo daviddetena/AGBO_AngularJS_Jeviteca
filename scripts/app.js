@@ -17,7 +17,7 @@ angular
         $routeSegmentProvider.when("/genres","genres");
 
         // Configure detail routing (dynamic with :)
-        $routeSegmentProvider.when("/bands/:name/details","detail_band");
+        $routeSegmentProvider.when("/bands/:id/details","detail_band");
         $routeSegmentProvider.when("/albums/:id/details","detail_album");
 
 
@@ -81,7 +81,7 @@ angular
             resolve:{
                 Band:["ApiService","$routeParams",function(ApiService,$routeParams){
                     // $routeParams contains params in the url. We need the param 'name'
-                    return ApiService.getBand("bands.json", $routeParams.name);
+                    return ApiService.getBand("bands.json", $routeParams.id);
                 }]
             }
         });
@@ -97,10 +97,6 @@ angular
                 }]
             }
         });
-
-
-
-
 
 
 

@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"name": "Sludge metal",
 		"albums": [
 			{
@@ -7,44 +8,55 @@
 				"title": "Remission",
 				"year": 2002,
 				"band": {
+					"id": 1,
 					"name": "Mastodon"
-				}
+				},
+				"image": "1-mastodon-remission.jpg"
 			},
 			{
 				"id": 5,
 				"title": "The Hunter",
 				"year": 2011,
 				"band": {
+					"id": 1,
 					"name": "Mastodon"
-				}
+				},
+				"image": "5-mastodon-the-hunter.jpg"
 			},
 			{
 				"id": 6,
 				"title": "Once More 'Round the Sun",
 				"year": 2014,
 				"band": {
+					"id": 1,
 					"name": "Mastodon"
-				}
+				},
+				"image": "6-mastodon-once-more-round-the-sun.jpg"
 			},
 			{
 				"id": 51,
 				"title": "Red Album",
 				"year": 2007,
 				"band": {
+					"id": 9,
 					"name": "Baroness"
-				}
+				},
+				"image": "51-baroness-red-album.jpg"
 			},
 			{
 				"id": 52,
 				"title": "Blue Record",
 				"year": 2009,
 				"band": {
+					"id": 9,
 					"name": "Baroness"
-				}
+				},
+				"image": "52-baroness-blue-record.jpg"
 			}
 		]
 	},
 	{
+		"id": 2,
 		"name": "Groove metal",
 		"albums": [
 			{
@@ -52,124 +64,155 @@
 				"title": "Leviathan",
 				"year": 2004,
 				"band": {
+					"id": 1,
 					"name": "Mastodon"
-				}
+				},
+				"image": "2-mastodon-leviathan.jpg"
 			},
 			{
 				"id": 10,
 				"title": "All Hope Is Gone",
 				"year": 2008,
 				"band": {
+					"id": 2,
 					"name": "Slipknot"
-				}
+				},
+				"image": "10-slipknot-all-hope-is-gone.jpg"
 			},
 			{
 				"id": 11,
 				"title": ".5: The Gray Chapter",
 				"year": 2014,
 				"band": {
+					"id": 2,
 					"name": "Slipknot"
-				}
+				},
+				"image": "11-slipknot-5-the-gray-chapter.jpg"
 			},
 			{
 				"id": 17,
 				"title": "Burn the Priest",
 				"year": 1999,
 				"band": {
+					"id": 4,
 					"name": "Lamb of God"
-				}
+				},
+				"image": "17-lamb-of-god-burn-the-priest.jpg"
 			},
 			{
 				"id": 18,
 				"title": "New American Gospel",
 				"year": 2000,
 				"band": {
+					"id": 4,
 					"name": "Lamb of God"
-				}
+				},
+				"image": "18-lamb-of-god-new-american-gospel.jpg"
 			},
 			{
 				"id": 19,
 				"title": "As the Palaces Burn",
 				"year": 2003,
 				"band": {
+					"id": 4,
 					"name": "Lamb of God"
-				}
+				},
+				"image": "19-lamb-of-god-as-the-palaces-burn.jpg"
 			},
 			{
 				"id": 20,
 				"title": "Ashes of the Wake",
 				"year": 2004,
 				"band": {
+					"id": 4,
 					"name": "Lamb of God"
-				}
+				},
+				"image": "20-lamb-of-god-ashes-of-the-wake.jpg"
 			},
 			{
 				"id": 21,
 				"title": "Sacrament",
 				"year": 2006,
 				"band": {
+					"id": 4,
 					"name": "Lamb of God"
-				}
+				},
+				"image": "21-lamb-of-god-sacrament.jpg"
 			},
 			{
 				"id": 22,
 				"title": "Wrath",
 				"year": 2009,
 				"band": {
+					"id": 4,
 					"name": "Lamb of God"
-				}
+				},
+				"image": "22-lamb-of-god-wrath.jpg"
 			},
 			{
 				"id": 23,
 				"title": "Resolution",
 				"year": 2012,
 				"band": {
+					"id": 4,
 					"name": "Lamb of God"
-				}
+				},
+				"image": "23-lamb-of-god-resolution.jpg"
 			},
 			{
 				"id": 32,
 				"title": "Terra Incognita",
 				"year": 2001,
 				"band": {
+					"id": 6,
 					"name": "Gojira"
-				}
+				},
+				"image": "32-gojira-terra-incognita.jpg"
 			},
 			{
 				"id": 33,
 				"title": "The Link",
 				"year": 2003,
 				"band": {
+					"id": 6,
 					"name": "Gojira"
-				}
+				},
+				"image": "33-gojira-the-link.jpg"
 			},
 			{
 				"id": 34,
 				"title": "From Mars to Sirius",
 				"year": 2005,
 				"band": {
+					"id": 6,
 					"name": "Gojira"
-				}
+				},
+				"image": "34-gojira-from-mars-to-sirius.jpg"
 			},
 			{
 				"id": 35,
 				"title": "The Way of All Flesh",
 				"year": 2008,
 				"band": {
+					"id": 6,
 					"name": "Gojira"
-				}
+				},
+				"image": "35-gojira-the-way-of-all-flesh.jpg"
 			},
 			{
 				"id": 36,
 				"title": "L'Enfant Sauvage",
 				"year": 2012,
 				"band": {
+					"id": 6,
 					"name": "Gojira"
-				}
+				},
+				"image": "36-gojira-l-enfant-sauvage.jpg"
 			}
 		]
 	},
 	{
+		"id": 3,
 		"name": "Progressive metal",
 		"albums": [
 			{
@@ -177,20 +220,25 @@
 				"title": "Blood Mountain",
 				"year": 2006,
 				"band": {
+					"id": 1,
 					"name": "Mastodon"
-				}
+				},
+				"image": "3-mastodon-blood-mountain.jpg"
 			},
 			{
 				"id": 4,
 				"title": "Crack the Skye",
 				"year": 2009,
 				"band": {
+					"id": 1,
 					"name": "Mastodon"
-				}
+				},
+				"image": "4-mastodon-crack-the-skye.jpg"
 			}
 		]
 	},
 	{
+		"id": 4,
 		"name": "Nu metal",
 		"albums": [
 			{
@@ -198,28 +246,35 @@
 				"title": "Slipknot",
 				"year": 1999,
 				"band": {
+					"id": 2,
 					"name": "Slipknot"
-				}
+				},
+				"image": "7-slipknot-slipknot.jpg"
 			},
 			{
 				"id": 8,
 				"title": "Iowa",
 				"year": 2001,
 				"band": {
+					"id": 2,
 					"name": "Slipknot"
-				}
+				},
+				"image": "8-slipknot-iowa.jpg"
 			},
 			{
 				"id": 9,
 				"title": "Vol. 3: (The Subliminal Verses)",
 				"year": 2004,
 				"band": {
+					"id": 2,
 					"name": "Slipknot"
-				}
+				},
+				"image": "9-slipknot-vol-3-the-subliminal-verses.jpg"
 			}
 		]
 	},
 	{
+		"id": 5,
 		"name": "Alternative metal",
 		"albums": [
 			{
@@ -227,44 +282,55 @@
 				"title": "Stone Sour",
 				"year": 2002,
 				"band": {
+					"id": 3,
 					"name": "Stone Sour"
-				}
+				},
+				"image": "12-stone-sour-stone-sour.jpg"
 			},
 			{
 				"id": 13,
 				"title": "Come What(ever) May",
 				"year": 2006,
 				"band": {
+					"id": 3,
 					"name": "Stone Sour"
-				}
+				},
+				"image": "13-stone-sour-come-what-ever-may.jpg"
 			},
 			{
 				"id": 14,
 				"title": "Audio Secrecy",
 				"year": 2010,
 				"band": {
+					"id": 3,
 					"name": "Stone Sour"
-				}
+				},
+				"image": "14-stone-sour-audio-secrecy.jpg"
 			},
 			{
 				"id": 15,
 				"title": "House of Gold & Bones Part 1",
 				"year": 2012,
 				"band": {
+					"id": 3,
 					"name": "Stone Sour"
-				}
+				},
+				"image": "15-stone-sour-house-of-gold-bones-part-1.jpg"
 			},
 			{
 				"id": 16,
 				"title": "House of Gold & Bones Part 2",
 				"year": 2013,
 				"band": {
+					"id": 3,
 					"name": "Stone Sour"
-				}
+				},
+				"image": "16-stone-sour-house-of-gold-bones-part-2.jpg"
 			}
 		]
 	},
 	{
+		"id": 6,
 		"name": "Thrash metal",
 		"albums": [
 			{
@@ -272,12 +338,15 @@
 				"title": "Soul of a New Machine",
 				"year": 1992,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "24-fear-factory-soul-of-a-new-machine.jpg"
 			}
 		]
 	},
 	{
+		"id": 7,
 		"name": "Industrial metal",
 		"albums": [
 			{
@@ -285,60 +354,75 @@
 				"title": "Demanufacture",
 				"year": 1995,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "25-fear-factory-demanufacture.jpg"
 			},
 			{
 				"id": 26,
 				"title": "Obsolete",
 				"year": 1998,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "26-fear-factory-obsolete.jpg"
 			},
 			{
 				"id": 27,
 				"title": "Digimortal",
 				"year": 2001,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "27-fear-factory-digimortal.jpg"
 			},
 			{
 				"id": 28,
 				"title": "Archetype",
 				"year": 2004,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "28-fear-factory-archetype.jpg"
 			},
 			{
 				"id": 29,
 				"title": "Transgression",
 				"year": 2005,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "29-fear-factory-transgression.jpg"
 			},
 			{
 				"id": 30,
 				"title": "Mechanize",
 				"year": 2010,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "30-fear-factory-mechanize.jpg"
 			},
 			{
 				"id": 31,
 				"title": "The Industrialist",
 				"year": 2012,
 				"band": {
+					"id": 5,
 					"name": "Fear Factory"
-				}
+				},
+				"image": "31-fear-factory-the-industrialist.jpg"
 			}
 		]
 	},
 	{
+		"id": 8,
 		"name": "Death metal",
 		"albums": [
 			{
@@ -346,36 +430,45 @@
 				"title": "Mystic Places of Dawn",
 				"year": 1994,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "37-septicflesh-mystic-places-of-dawn.jpg"
 			},
 			{
 				"id": 38,
 				"title": "Esoptron",
 				"year": 1995,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "38-septicflesh-esoptron.jpg"
 			},
 			{
 				"id": 39,
 				"title": "The Ophidian Wheel",
 				"year": 1997,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "39-septicflesh-the-ophidian-wheel.jpg"
 			},
 			{
 				"id": 40,
 				"title": "A Fallen Temple",
 				"year": 1997,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "40-septicflesh-a-fallen-temple.jpg"
 			}
 		]
 	},
 	{
+		"id": 9,
 		"name": "Gothic metal",
 		"albums": [
 			{
@@ -383,12 +476,15 @@
 				"title": "Revolution DNA",
 				"year": 1999,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "41-septicflesh-revolution-dna.jpg"
 			}
 		]
 	},
 	{
+		"id": 10,
 		"name": "Death metal sinfónico",
 		"albums": [
 			{
@@ -396,36 +492,45 @@
 				"title": "Sumerian Daemons",
 				"year": 2002,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "42-septicflesh-sumerean-daemons.jpg"
 			},
 			{
 				"id": 43,
 				"title": "Communion",
 				"year": 2008,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "43-septicflesh-communion.jpg"
 			},
 			{
 				"id": 44,
 				"title": "The Great Mass",
 				"year": 2011,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "44-septicflesh-the-great-mass.jpg"
 			},
 			{
 				"id": 45,
 				"title": "Titan",
 				"year": 2014,
 				"band": {
+					"id": 7,
 					"name": "Septicflesh"
-				}
+				},
+				"image": "45-septicflesh-titan.jpg"
 			}
 		]
 	},
 	{
+		"id": 11,
 		"name": "Hard rock",
 		"albums": [
 			{
@@ -433,44 +538,55 @@
 				"title": "The Strength / The Sound / The Songs",
 				"year": 2005,
 				"band": {
+					"id": 8,
 					"name": "Volbeat"
-				}
+				},
+				"image": "46-volbeat-the-strength-the-sound-the-songs.jpg"
 			},
 			{
 				"id": 47,
 				"title": "Rock the Rebel / Metal the Devil",
 				"year": 2007,
 				"band": {
+					"id": 8,
 					"name": "Volbeat"
-				}
+				},
+				"image": "47-volbeat-rock-the-rebel-metal-the-devil.jpg"
 			},
 			{
 				"id": 48,
 				"title": "Guitar Gangsters & Cadillac Blood",
 				"year": 2008,
 				"band": {
+					"id": 8,
 					"name": "Volbeat"
-				}
+				},
+				"image": "48-volbeat-guitar-gangsters-cadillac-blood.jpg"
 			},
 			{
 				"id": 49,
 				"title": "Beyond Hell / Above Heaven",
 				"year": 2010,
 				"band": {
+					"id": 8,
 					"name": "Volbeat"
-				}
+				},
+				"image": "49-volbeat-beyond-hell-above-heaven.jpg"
 			},
 			{
 				"id": 50,
 				"title": "Outlaw Gentlemen & Shady Ladies",
 				"year": 2013,
 				"band": {
+					"id": 8,
 					"name": "Volbeat"
-				}
+				},
+				"image": "50-volbeat-outlaw-gentlemen-shady-ladies.jpg"
 			}
 		]
 	},
 	{
+		"id": 12,
 		"name": "Stoner rock",
 		"albums": [
 			{
@@ -478,12 +594,15 @@
 				"title": "Yellow & Green",
 				"year": 2010,
 				"band": {
+					"id": 9,
 					"name": "Baroness"
-				}
+				},
+				"image": "53-baroness-yellow-green.jpg"
 			}
 		]
 	},
 	{
+		"id": 13,
 		"name": "Metalcore",
 		"albums": [
 			{
@@ -491,8 +610,10 @@
 				"title": "Killer Be Killed",
 				"year": 2014,
 				"band": {
+					"id": 10,
 					"name": "Killer Be Killed"
-				}
+				},
+				"image": "54-killer-be-killed-killer-be-killed.jpg"
 			}
 		]
 	}

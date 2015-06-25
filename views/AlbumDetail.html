@@ -6,12 +6,12 @@
             </div>
             <div class="col-xs-6 col-sm-9 col-md-10 col-lg-10">
                 <div class="pull-right marg-bottom-1x">
-                    <a href="#"><i class="glyphicon glyphicon-chevron-left"></i> Back</a>
+                    <a href="#/albums"><i class="glyphicon glyphicon-chevron-left"></i> Albums</a>
                 </div>
                 <h3>{{ ::album.title}}</h3>
-                <h4 class="text-info"><a href="#/bands/{{::album.band.name}}/details" title="Click to detail view">{{::album.band.name}}</a></h4>
+                <h4 class="text-info"><a href="#/bands/{{::album.band.id}}/details" title="Click to detail view">{{::album.band.name}}</a></h4>
                 <p class="text-muted">{{::album.year | albumReleasedFilter}}</p>
-                <p favorites id="album.title" kind="album"></p>
+                <p favorites id="album.id" kind="album"></p>
             </div>
         </div>
     </header>

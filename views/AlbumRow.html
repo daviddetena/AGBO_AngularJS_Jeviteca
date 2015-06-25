@@ -8,11 +8,6 @@
     <td style="width:20%">
         {{::album.genre.name}}
     </td>
-    <!--
-    <td>
-        {{::album.band.name}}
-    </td>
-    -->
     <td style="width:15%">
         {{::album.year | albumReleasedFilter}}
     </td>
@@ -20,7 +15,7 @@
         Vote
     </td>
     <td style="width:5%">
-        <span favorites id="album.title" kind="album">
+        <span favorites id="album.id" kind="album">
         </span>
     </td>
 </tr>
