@@ -9,5 +9,6 @@ angular
     .value("Settings",{
         "apiUrl":"assets/data/",
         "wikiSearch":"https://es.wikipedia.org/wiki/Special:Search?search=",
-        "youtubeSearch":"https://www.youtube.com/results?search_query="
+        "youtubeSearch":"https://www.youtube.com/results?search_query=",
+        "ratingLimit": 5
     });

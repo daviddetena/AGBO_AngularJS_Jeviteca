@@ -1,8 +1,14 @@
-<li class="album-tile">
-    <div class="album-tile-img">
-        <img width="70" height="100" ng-src="assets/img/{{::album.image}}" ng-alt="{{::album.title}}">
+<div class="col-xs-6 col-sm-4 col-md-3">
+    <div class="thumbnail">
+        <img ng-src="assets/img/{{::album.image}}" ng-alt="{{::album.title}}">
+        <div class="caption">
+            <h4>{{::album.title}}</h4>
+            <span class="album-detail-year">{{::album.year}}</span>
+            <p>{{::album.genre.name}}</p>
+            <p>
+                <span favorites id="album.id" kind="album"></span>
+                <a class="pull-right" ng-href="{{::youtubeSearch}}{{::album.title}}" target="_blank" title="Click to watch on Youtube"><i class="glyphicon glyphicon-play"></i></a>
+            </p>
+        </div>
     </div>
-    <div class="album-tile-content">
-        <h4>{{::album.title}}</h4>
-    </div>
-</li>
+</div>

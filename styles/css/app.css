@@ -2,6 +2,14 @@
     General-purpose classes
 ******************************/
 
+body{
+    /*
+    background: url("../../assets/img/metallica-2.jpg") top right no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    */
+}
+
 .marg-top-1x{
     margin-top: 1em;
 }
@@ -27,6 +35,7 @@
     border: 1px solid #eee;
     border-left-width: 5px;
     border-radius: 3px;
+    background: #fafafa;
 }
 
 .bs-callout h4 {
@@ -108,6 +117,27 @@
 /******************************
     Tiles for albums
 ******************************/
+.thumbnail .caption h4{
+    //color: #465157;
+    font-weight: 400;
+}
+
+.thumbnail .caption .album-detail-year{
+    font-weight: 100 !important;
+    text-space: 2px;
+    color: #848484;
+}
+
+.thumbnail .caption p{
+    font-weight: 200;
+    color: #A4A4A4;
+}
+
+.thumbnail .caption ul li{
+    color: #A4A4A4;
+}
+
+/*
 .list-album-tiles{
     list-style: none;
 }
@@ -148,5 +178,6 @@
     font-size: 1.2em !important;
     text-align: center;
 }
+*/
 
 

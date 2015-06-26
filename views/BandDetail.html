@@ -27,10 +27,14 @@
         <div class="bs-callout bs-callout-danger">
             <h4>Albums</h4>
 
-            <!-- Custom directive for album tile -->
+            <div class="row marg-top-2x">
+                <album-tile ng-repeat="album in band.albums | orderBy:'title'" album="album"></album-tile>
+            </div>
+
+            <!-- Custom directive for album tile
             <ul class="list-album-tiles list-unstyled list-inline marg-top-2x">
                 <album-tile ng-repeat="album in band.albums | orderBy:'title'" album="album"></album-tile>
-            </ul>
+            </ul> -->
         </div>
     </section>
 </article>

@@ -11,7 +11,7 @@
                 <h3>{{ ::album.title}}</h3>
                 <h4 class="text-info"><a href="#/bands/{{::album.band.id}}/details" title="Click to detail view">{{::album.band.name}}</a></h4>
                 <p class="text-muted">{{::album.year | albumReleasedFilter}}</p>
-                <p favorites id="album.id" kind="album"></p>
+                <ratings id="album.id" kind="album"></ratings>
             </div>
         </div>
     </header>

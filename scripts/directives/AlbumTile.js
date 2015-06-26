@@ -15,6 +15,8 @@ angular
             },
             link: function(scope){
                 //debugger;
+                scope.wikiSearch = Settings.wikiSearch;
+                scope.youtubeSearch = Settings.youtubeSearch;
 
                 /*
                 // Put in the scope, in the var "album", the album data of the given id

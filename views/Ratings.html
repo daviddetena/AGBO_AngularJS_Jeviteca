@@ -1,0 +1,14 @@
+<div>
+    <span ng-hide="hasLocalStorage()">Local Storage not supported</span>
+    <div ng-hide="isRated()">
+        <select ng-model="item_rating">
+            <option ng-repeat="i in [0,1,2,3,4,5]" value="{{$index}}">{{$index}}</option>
+        </select>
+        <span><a ng-click="saveRating(item_rating)" href="#">Rate</a></span>
+    </div>
+    <div ng-show="isRated()">
+        <span ng-repeat="stars in starsFilled()" class="glyphicon glyphicon-star text-warning"></span>
+        <span ng-repeat="stars in starsEmpty()" class="glyphicon glyphicon-star-empty"></span>
+        <span><a class="text-danger" ng-click="clearRating()" href="#">Clear</a></span>
+    </div>
+</div>

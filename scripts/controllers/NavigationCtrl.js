@@ -13,16 +13,16 @@ angular
 
         // Go to the $routeSegment starting with bands
         $scope.pathIsBands = function(){
-            return $routeSegment.startsWith("bands");
+            return $routeSegment.startsWith("band");
         };
 
         // Go to the $routeSegment starting with albums
         $scope.pathIsAlbums = function(){
-            return $routeSegment.startsWith("albums");
+            return $routeSegment.startsWith("album");
         };
 
         // Go to the $routeSegment starting with genres
         $scope.pathIsGenres = function(){
-            return $routeSegment.startsWith("genres");
+            return $routeSegment.startsWith("genre");
         };
     }]);

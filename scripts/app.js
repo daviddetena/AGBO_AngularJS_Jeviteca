@@ -17,8 +17,8 @@ angular
         $routeSegmentProvider.when("/genres","genres");
 
         // Configure detail routing (dynamic with :)
-        $routeSegmentProvider.when("/bands/:id/details","detail_band");
-        $routeSegmentProvider.when("/albums/:id/details","detail_album");
+        $routeSegmentProvider.when("/bands/:id/details","band_detail");
+        $routeSegmentProvider.when("/albums/:id/details","album_detail");
 
 
         // Provide a controller and a view for each page
@@ -75,7 +75,7 @@ angular
 
 
         // Band detail view: get band data by its name
-        $routeSegmentProvider.segment("detail_band",{
+        $routeSegmentProvider.segment("band_detail",{
             controller: "bandDetail",
             templateUrl: "views/BandDetail.html",
             resolve:{
@@ -87,7 +87,7 @@ angular
         });
 
         // Album detail view: get album data by its id
-        $routeSegmentProvider.segment("detail_album",{
+        $routeSegmentProvider.segment("album_detail",{
             controller: "albumDetail",
             templateUrl: "views/AlbumDetail.html",
             resolve:{
