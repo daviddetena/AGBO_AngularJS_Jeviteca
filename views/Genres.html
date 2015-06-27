@@ -1,8 +1,16 @@
 <h3>Genres</h3>
+<div class="row marg-bottom-2x">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="inner-addon left-addon">
+            <i class="glyphicon glyphicon-search text-muted"></i>
+            <input type="text" class="form-control" ng-model="search[searchField]" placeholder="Type to filter" />
+        </div>
+    </div>
+</div>
 <table class="table table-striped">
     <tbody>
         <!-- Use directive "genreRow", that includes a <tr>, in an ng-repeat -->
-        <tr genre-row ng-repeat="genre in genres | orderBy:'name'" genre="genre">
+        <tr genre-row ng-repeat="genre in genres | orderBy:'name' | filter:search" genre="genre">
         </tr>
     </tbody>
 </table>

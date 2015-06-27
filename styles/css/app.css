@@ -117,8 +117,8 @@ body{
 /******************************
     Tiles for albums
 ******************************/
-.thumbnail .caption h4{
-    //color: #465157;
+.thumbnail .caption h4 a{
+    color: #d9534f;
     font-weight: 400;
 }
 
@@ -136,6 +136,28 @@ body{
 .thumbnail .caption ul li{
     color: #A4A4A4;
 }
+
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
 
 /*
 .list-album-tiles{

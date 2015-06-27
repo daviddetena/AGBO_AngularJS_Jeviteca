@@ -11,22 +11,28 @@
         <script src="vendor/angular-route.min.js"></script>
         <script src="vendor/angular-route-segment.min.js"></script>
         <script src="scripts/app.js"></script>
+
         <script src="scripts/controllers/NavigationCtrl.js"></script>
         <script src="scripts/controllers/BandsCtrl.js"></script>
         <script src="scripts/controllers/AlbumsCtrl.js"></script>
         <script src="scripts/controllers/GenresCtrl.js"></script>
+        <script src="scripts/controllers/BandDetailCtrl.js"></script>
+        <script src="scripts/controllers/AlbumDetailCtrl.js"></script>
+        <script src="scripts/controllers/SearchCtrl.js"></script>
+
         <script src="scripts/services/ApiService.js"></script>
+
         <script src="scripts/filters/BandFormedFilter.js"></script>
         <script src="scripts/filters/AlbumReleasedFilter.js"></script>
         <script src="scripts/filters/BandMemberInstrumentFilter.js"></script>
         <script src="scripts/filters/AlbumBandFilter.js"></script>
+
         <script src="scripts/values/Settings.js"></script>
+
         <script src="scripts/directives/BandRowDirective.js"></script>
         <script src="scripts/directives/AlbumRowDirective.js"></script>
         <script src="scripts/directives/GenreRowDirective.js"></script>
         <script src="scripts/directives/Favorites.js"></script>
-        <script src="scripts/controllers/BandDetailCtrl.js"></script>
-        <script src="scripts/controllers/AlbumDetailCtrl.js"></script>
         <script src="scripts/directives/AlbumTile.js"></script>
         <script src="scripts/directives/Ratings.js"></script>
     </head>
@@ -50,7 +56,7 @@
                     </li>
                 </ul>
             </nav>
-            <section app-view-segment="0"></section>
+            <section app-view-segment="0" ng-controller="search"></section>
         </div>
         <script>
             // Automatic bootstraping

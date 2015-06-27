@@ -2,13 +2,10 @@
     <div class="thumbnail">
         <img ng-src="assets/img/{{::album.image}}" ng-alt="{{::album.title}}">
         <div class="caption">
-            <h4>{{::album.title}}</h4>
+            <h4><a href="#/albums/{{album.id}}/details" title="Click to detail">{{::album.title}}</a></h4>
             <span class="album-detail-year">{{::album.year}}</span>
             <p>{{::album.genre.name}}</p>
-            <p>
-                <span favorites id="album.id" kind="album"></span>
-                <a class="pull-right" ng-href="{{::youtubeSearch}}{{::album.title}}" target="_blank" title="Click to watch on Youtube"><i class="glyphicon glyphicon-play"></i></a>
-            </p>
+            <ratings id="album.id" kind="album"></ratings>
         </div>
     </div>
 </div>
