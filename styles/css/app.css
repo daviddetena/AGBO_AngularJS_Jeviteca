@@ -3,6 +3,7 @@
 ******************************/
 
 body{
+    font-family: 'Open Sans', sans-serif;
     /*
     background: url("../../assets/img/metallica-2.jpg") top right no-repeat;
     -webkit-background-size: cover;
@@ -24,6 +25,14 @@ body{
 
 .marg-bottom-2x{
     margin-bottom: 2em;
+}
+
+.marg-left-1x{
+    margin-left: 1em;
+}
+
+.marg-left-2x{
+    margin-left: 2em;
 }
 
 /******************************
@@ -51,7 +60,7 @@ body{
     border-left-color: #7f8c8d;
 }
 
-.bs-callout-default{
+.bs-callout-default h4{
     color: #7f8c8d;
 }
 
@@ -70,6 +79,14 @@ body{
 
 .bs-callout-info h4 {
     color: #5bc0de;
+}
+
+.bs-callout-gray {
+    border-left-color: #777;
+}
+
+.bs-callout-gray h4 {
+    color: #777;
 }
 
 .bs-callout-warning {
@@ -118,7 +135,8 @@ body{
     Tiles for albums
 ******************************/
 .thumbnail .caption h4 a{
-    color: #d9534f;
+    //color: #d9534f;
+    color: #31708f;
     font-weight: 400;
 }
 
@@ -159,47 +177,5 @@ body{
 .right-addon input { padding-right: 30px; }
 
 
-/*
-.list-album-tiles{
-    list-style: none;
-}
-
-.list-album-tiles li{
-    padding: 0px !important;
-    margin-right: 2em !important;
-    margin-bottom: 2em !important;
-    width: 190px;
-    min-height: 250px;
-    height: auto;
-    border: 1px solid #ddd;
-}
-
-.list-album-tiles li:hover{
-    opacity: 0.8;
-    -moz-opacity: 0.8;
-}
-
-.list-album-tiles li .album-tile-img{
-    padding: 0 !important;
-    margin: 0 !important;
-    width:190px !important;
-    height: 190px !important;
-}
-
-.list-album-tiles li .album-tile-content{
-    padding: 1em !important;
-    margin: 0 !important;
-    background: #f1f1f1;
-    min-height: 60px;
-    height: auto;
-}
-
-.list-album-tiles li .album-tile-content h4{
-    color: #465157;
-    font-weight: 400;
-    font-size: 1.2em !important;
-    text-align: center;
-}
-*/
-
-
+/* Class when hovering on stars */
+.fav-class:hover{cursor:pointer;}

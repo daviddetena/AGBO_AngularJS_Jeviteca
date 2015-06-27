@@ -99,7 +99,6 @@ angular
         });
 
 
-
         // In case a nav link is not provided, go to /bands
         $routeProvider.otherwise({
            redirectTo: "/bands"

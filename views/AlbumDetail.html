@@ -16,12 +16,12 @@
         </div>
     </header>
     <section>
-        <div class="bs-callout bs-callout-danger">
+        <div class="bs-callout bs-callout-primary">
             <h4>Tracklist</h4>
             <table class="table table-striped" style="margin-top:20px">
                 <tr ng-repeat="track in album.tracklist">
                     <td style="width:95%">{{::track}}</td>
-                    <td style="width:5%"><a class="text-danger" ng-href="{{::youtubeSearch}}{{::album.title}}-{{::track}}" target="_blank" title="Watch on Youtube"><i class="glyphicon glyphicon-play"></i></a></td>
+                    <td style="width:5%"><a class="text-info" ng-href="{{::youtubeSearch}}{{::album.title}}-{{::track}}" target="_blank" title="Search on Youtube"><i class="fa fa-2x fa-play-circle-o"></i></a></td>
                 </tr>
             </table>
         </div>

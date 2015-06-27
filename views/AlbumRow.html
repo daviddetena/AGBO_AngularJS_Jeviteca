@@ -1,18 +1,17 @@
 <tr>
     <td style="width:10%">
-        <img class="img-circle" width="70" height="70" ng-src="assets/img/{{::album.image}}" ng-alt="{{::album.title}}" />
+        <img class="img-circle" width="80" height="80" ng-src="assets/img/{{::album.image}}" ng-alt="{{::album.title}}" />
     </td>
     <td style="width:25%">
-        <a ng-href="#/albums/{{::album.id}}/details" title="Click to detail view">{{::album.title | albumBandFilter:album.band.name}}</a>
+        <a ng-href="#/albums/{{::album.id}}/details" title="Click to detail view">{{::album.title}}</a>
     </td>
     <td style="width:20%">
         {{::album.genre.name}}
     </td>
     <td style="width:15%">
-        {{::album.year | albumReleasedFilter}}
+        {{::album.year}}
     </td>
     <td style="width:10%">
         <ratings id="album.id" kind="album"></ratings>
     </td>
-
 </tr>

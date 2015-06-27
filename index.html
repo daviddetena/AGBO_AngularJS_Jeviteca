@@ -5,7 +5,32 @@
         <title>Jeviteca - David de Tena</title>
         <!-- Latest compiled and minified Bootstrap's CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="styles/css/app.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+            <header class="marg-bottom-2x">
+                <h1>Jeviteca <small>by David de Tena</small></h1>
+                <h3 class="text-muted">Your library with the best heavy metal bands ever</h3>
+            </header>
+            <!-- NavigationCtrl is responsible for the navigation -->
+            <nav ng-controller="NavigationCtrl">
+                <ul class="nav nav-tabs">
+                    <li role="presentation" ng-class="{'active': pathIsBands()}">
+                        <a href="#/bands">Bands</a>
+                    </li>
+                    <li role="presentation" ng-class="{'active': pathIsAlbums()}">
+                        <a href="#/albums">Albums</a>
+                    </li>
+                    <li role="presentation" ng-class="{'active': pathIsGenres()}">
+                        <a href="#/genres">Genres</a>
+                    </li>
+                </ul>
+            </nav>
+            <section app-view-segment="0" ng-controller="search"></section>
+        </div>
         <!-- AngularJS files -->
         <script src="vendor/angular.min.js"></script>
         <script src="vendor/angular-route.min.js"></script>
@@ -35,32 +60,5 @@
         <script src="scripts/directives/Favorites.js"></script>
         <script src="scripts/directives/AlbumTile.js"></script>
         <script src="scripts/directives/Ratings.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <h1>Jeviteca <small>by David de Tena</small></h1>
-                <h3>Your library with the best heavy metal bands ever</h3>
-            </header>
-            <!-- NavigationCtrl is responsible for the navigation -->
-            <nav ng-controller="NavigationCtrl">
-                <ul class="nav nav-tabs">
-                    <li role="presentation" ng-class="{'active': pathIsBands()}">
-                        <a href="#/bands">Bands</a>
-                    </li>
-                    <li role="presentation" ng-class="{'active': pathIsAlbums()}">
-                        <a href="#/albums">Albums</a>
-                    </li>
-                    <li role="presentation" ng-class="{'active': pathIsGenres()}">
-                        <a href="#/genres">Genres</a>
-                    </li>
-                </ul>
-            </nav>
-            <section app-view-segment="0" ng-controller="search"></section>
-        </div>
-        <script>
-            // Automatic bootstraping
-            //angular.module("jeviteca",[]);
-        </script>
     </body>
 </html>

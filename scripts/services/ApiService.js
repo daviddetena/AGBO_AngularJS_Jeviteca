@@ -65,6 +65,4 @@ angular.module("jeviteca").service("ApiService",["$http","Settings","$q","$filte
         // Return promise (resolved or rejected)
         return deferred.promise;
     };
-
-
 }]);

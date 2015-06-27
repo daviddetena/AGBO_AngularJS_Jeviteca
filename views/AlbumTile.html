@@ -6,6 +6,9 @@
             <span class="album-detail-year">{{::album.year}}</span>
             <p>{{::album.genre.name}}</p>
             <ratings id="album.id" kind="album"></ratings>
+            <div class="marg-top-1x">
+                <a class="marg-top-2x text-info" href="{{youtubeSearch}}{{::album.title}}" title="Search on Youtube" target="_blank"><i class="fa fa-2x fa-play-circle-o"></i></a>
+            </div>
         </div>
     </div>
 </div>
