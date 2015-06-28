@@ -1,4 +1,4 @@
-<h3>Albums</h3>
+<h3 class="page-title">Albums</h3>
 <div class="row marg-bottom-2x">
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="inner-addon left-addon">
@@ -7,10 +7,12 @@
         </div>
     </div>
 </div>
-<table class="table table-striped">
-    <tbody>
-        <!-- Use directive "albumRow", that includes a <tr>, in an ng-repeat -->
-        <tr album-row ng-repeat="album in albums | orderBy:'title' | filter:search" album="album">
-        </tr>
-    </tbody>
-</table>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <tbody>
+            <!-- Use directive "albumRow", that includes a <tr>, in an ng-repeat -->
+            <tr album-row ng-repeat="album in albums | orderBy:'title' | filter:search" album="album">
+            </tr>
+        </tbody>
+    </table>
+</div>

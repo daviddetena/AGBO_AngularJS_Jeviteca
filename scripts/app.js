@@ -33,11 +33,7 @@ angular
                 Bands: ["ApiService",function(ApiService){
                     return ApiService.getData("bands.json");
                 }]
-            }/*,
-            resolveFailed:{
-                controller:"",
-                templateUrl:""
-            }*/
+            }
         });
 
         $routeSegmentProvider.segment("albums",{
@@ -49,11 +45,7 @@ angular
                 Albums: ["ApiService",function(ApiService){
                     return ApiService.getData("albums.json");
                 }]
-            }/*,
-             resolveFailed:{
-                controller:"",
-                templateUrl:""
-             }*/
+            }
         });
 
         $routeSegmentProvider.segment("genres",{
@@ -65,11 +57,7 @@ angular
                 Genres:["ApiService",function(ApiService){
                     return ApiService.getData("genres.json");
                 }]
-            }/*,
-             resolveFailed:{
-                controller:"",
-                templateUrl:""
-             }*/
+            }
         });
 
 

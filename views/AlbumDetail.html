@@ -8,7 +8,7 @@
                 <div class="pull-right marg-bottom-1x">
                     <a href="#/albums"><i class="glyphicon glyphicon-chevron-left"></i> Albums</a>
                 </div>
-                <h3>{{ ::album.title}}</h3>
+                <h3 class="text-yellow">{{ ::album.title}}</h3>
                 <h4 class="text-info"><a href="#/bands/{{::album.band.id}}/details" title="Click to detail view">{{::album.band.name}}</a></h4>
                 <p class="text-muted">{{::album.year | albumReleasedFilter}}</p>
                 <ratings id="album.id" kind="album"></ratings>
@@ -18,12 +18,14 @@
     <section>
         <div class="bs-callout bs-callout-primary">
             <h4>Tracklist</h4>
-            <table class="table table-striped" style="margin-top:20px">
-                <tr ng-repeat="track in album.tracklist">
-                    <td style="width:95%">{{::track}}</td>
-                    <td style="width:5%"><a class="text-info" ng-href="{{::youtubeSearch}}{{::album.title}}-{{::track}}" target="_blank" title="Search on Youtube"><i class="fa fa-2x fa-play-circle-o"></i></a></td>
-                </tr>
-            </table>
+            <div class="table-responsive">
+                <table class="table table-striped" style="margin-top:20px">
+                    <tr ng-repeat="track in album.tracklist">
+                        <td style="width:95%">{{::track}}</td>
+                        <td style="width:5%"><a class="text-info" ng-href="{{::youtubeSearch}}{{::album.title}}-{{::track}}" target="_blank" title="Search on Youtube"><i class="fa fa-2x fa-play-circle-o"></i></a></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </section>
 </article>

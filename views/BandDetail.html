@@ -8,7 +8,7 @@
                 <div class="pull-right marg-bottom-1x">
                     <a href="#/bands"><i class="glyphicon glyphicon-chevron-left"></i> Bands</a>
                 </div>
-                <h3>{{ ::band.name}}</h3>
+                <h3 class="text-yellow">{{ ::band.name}}</h3>
                 <p style="margin-top:20px"><i class="glyphicon glyphicon-home"></i> {{:: band.origin | bandFormedFilter}}</p>
                 <p><a ng-href="{{::wikiSearch}}{{::band.name}}" target="_blank"><i class="glyphicon glyphicon-link"></i> Link to Wikipedia</a></p>
                 <p favorites id="band.id" kind="band"></p>
@@ -16,7 +16,7 @@
         </div>
     </header>
     <section>
-        <div class="bs-callout bs-callout-warning">
+        <div class="bs-callout bs-callout-gray">
             <h4>Members</h4>
             <ul class="list-unstyled" style="margin-top:20px">
                 <li ng-repeat="member in band.members | orderBy:'name'"><a ng-href="{{::wikiSearch}}{{::member.name}}" target="_blank" title="Search in Wikipedia">{{::member.name}}</a><small class="text-muted">, {{::member.instruments | bandMemberInstrumentFilter}}</small></li>

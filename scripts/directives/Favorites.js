@@ -3,7 +3,7 @@
  */
 angular
     .module("jeviteca")
-    .directive("favorites",function(){
+    .directive("favorites",["WebStorageService",function(WebStorageService){
         return {
             restrict: "AE",
             templateUrl: "views/Favorites.html",
@@ -17,14 +17,7 @@ angular
             },
             link: function(scope){
 
-                scope.hasLocalStorage = function(){
-                    if(typeof (Storage)!== "undefined"){
-                        return "true";
-                    }
-                    else{
-                        return "false";
-                    }
-                };
+                scope.hasLocalStorage = WebStorageService.isLocalStorageAvailable;
 
                 // Check if the current band/album/genre is marked as favorite
                 scope.isFavorite = function(){
@@ -44,4 +37,4 @@ angular
                 };
             }
         };
-    });
+    }]);

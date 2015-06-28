@@ -3,12 +3,39 @@
 ******************************/
 
 body{
+    background: #000 url("../../assets/img/metallica.png") no-repeat top;
     font-family: 'Open Sans', sans-serif;
-    /*
-    background: url("../../assets/img/metallica-2.jpg") top right no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    */
+    padding-top: 300px;
+    color: #ddd;
+}
+
+body a{
+    color: #FE9A2E;
+}
+
+body a:hover{
+    color: #CD710E;
+}
+
+footer{
+    padding: 10px 0 !important;
+}
+
+input{
+    background-color: #f4f4f4 !important;
+}
+
+.table-striped>tbody>tr{
+    border-color: #FE9A2E;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background: inherit;
+    border-color: #FE9A2E;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    //border-top: 1px solid #F5DA81;
 }
 
 .marg-top-1x{
@@ -35,6 +62,39 @@ body{
     margin-left: 2em;
 }
 
+.pad-bottom-1x{
+    padding-bottom: 1em !important;
+}
+
+.text-orange{
+   color: #FE9A2E;
+}
+
+.text-yellow{
+    color: #F5DA81;
+}
+
+.text-gray-light{
+    color: #bdbdbd;
+}
+
+h3.page-title{
+    font-weight: 200 !important;
+    color: #FE9A2E;
+}
+
+.table-responsive{
+    border: none !important;
+}
+
+/******************************
+    Navigation
+******************************/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: #fff;
+    color: #FE9A2E;
+}
+
 /******************************
     Callouts
 ******************************/
@@ -44,7 +104,7 @@ body{
     border: 1px solid #eee;
     border-left-width: 5px;
     border-radius: 3px;
-    background: #fafafa;
+    background: #ededed;
 }
 
 .bs-callout h4 {
@@ -55,6 +115,11 @@ body{
 .bs-callout p:last-child {
     margin-bottom: 0;
 }
+
+.bs-callout table{
+    color: #848484;
+}
+
 
 .bs-callout-default{
     border-left-color: #7f8c8d;
@@ -117,6 +182,9 @@ body{
 /******************************
     Image of bands and albums
 ******************************/
+
+table img{border: 2px solid #ddd;}
+
 .band-detail img, .album-detail img{
     width: 100% !important;
     height: 100% !important;
@@ -135,7 +203,6 @@ body{
     Tiles for albums
 ******************************/
 .thumbnail .caption h4 a{
-    //color: #d9534f;
     color: #31708f;
     font-weight: 400;
 }
@@ -156,6 +223,9 @@ body{
 }
 
 
+/******************************
+   Search input
+******************************/
 /* enable absolute positioning */
 .inner-addon {
     position: relative;
@@ -175,6 +245,7 @@ body{
 /* add padding  */
 .left-addon input  { padding-left:  30px; }
 .right-addon input { padding-right: 30px; }
+
 
 
 /* Class when hovering on stars */

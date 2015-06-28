@@ -17,7 +17,7 @@ angular.module("jeviteca").service("ApiService",["$http","Settings","$q","$filte
         });
     };
 
-    // Create a deferred item to filter data by the band name
+    // Create a deferred item to filter data by the band id
     this.getBand = function(path, bandId){
         var deferred = $q.defer();
 

@@ -7,8 +7,8 @@
         <span><a ng-click="saveRating(item_rating)" href="#">Rate</a></span>
     </div>
     <div ng-show="isRated()">
-        <span ng-repeat="stars in starsFilled()" class="glyphicon glyphicon-star text-warning"></span>
+        <span ng-repeat="stars in starsFilled()" class="glyphicon glyphicon-star text-yellow"></span>
         <span ng-repeat="stars in starsEmpty()" class="glyphicon glyphicon-star-empty"></span>
-        <span class="marg-left-1x"><a title="Remove rating" class="text-danger" ng-click="clearRating()" href="#"><i class="glyphicon glyphicon-trash"></i></a></span>
+        <span class="marg-left-1x"><a title="Click to remove rating" class="text-orange" ng-click="clearRating()" href="#"><i class="glyphicon glyphicon-trash"></i></a></span>
     </div>
 </div>

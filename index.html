@@ -11,9 +11,9 @@
     </head>
     <body>
         <div class="container">
-            <header class="marg-bottom-2x">
-                <h1>Jeviteca <small>by David de Tena</small></h1>
-                <h3 class="text-muted">Your library with the best heavy metal bands ever</h3>
+            <header class="marg-bottom-2x text-center">
+                <h1 class="text-orange">Jeviteca</h1>
+                <h4 class="text-gray-light">Your library with the best heavy metal bands ever</h4>
             </header>
             <!-- NavigationCtrl is responsible for the navigation -->
             <nav ng-controller="NavigationCtrl">
@@ -30,6 +30,12 @@
                 </ul>
             </nav>
             <section app-view-segment="0" ng-controller="search"></section>
+            <footer>
+                <small class="text-muted">
+                    <span class="text-gray-light">David de Tena Calvo</span><br>
+                    KeepCoding Master Bootcamp - AngularJS Module
+                </small>
+            </footer>
         </div>
         <!-- AngularJS files -->
         <script src="vendor/angular.min.js"></script>
@@ -46,6 +52,7 @@
         <script src="scripts/controllers/SearchCtrl.js"></script>
 
         <script src="scripts/services/ApiService.js"></script>
+        <script src="scripts/services/WebStorageService.js"></script>
 
         <script src="scripts/filters/BandFormedFilter.js"></script>
         <script src="scripts/filters/AlbumReleasedFilter.js"></script>

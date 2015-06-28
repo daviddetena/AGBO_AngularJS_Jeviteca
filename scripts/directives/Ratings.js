@@ -4,7 +4,7 @@
 
 angular
     .module("jeviteca")
-    .directive("ratings",["Settings",function(Settings){
+    .directive("ratings",["Settings","WebStorageService",function(Settings,WebStorageService){
         return {
             restrict: "AE",
             templateUrl: "views/Ratings.html",
@@ -14,14 +14,7 @@ angular
                 kind: "@"
             },
             link: function(scope){
-                scope.hasLocalStorage = function(){
-                    if(typeof (Storage)!== "undefined"){
-                        return "true";
-                    }
-                    else{
-                        return "false";
-                    }
-                };
+                scope.hasLocalStorage = WebStorageService.isLocalStorageAvailable;
 
                 scope.ratingLimit = function(){
                     return Settings.ratingLimit;
