@@ -15,3 +15,5 @@ La webapp proporciona la siguiente información:
 	* Listado de albums, con posibilidad de valoración.
 3. Vista detallada de álbum, con info general del álbum y tracklist, donde las canciones pueden ser buscadas en Youtube.
 
+![](assets/img/preview.png)
+[View project](http://heavyteca.daviddetena.com)
